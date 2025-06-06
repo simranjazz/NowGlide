@@ -1,9 +1,9 @@
-remote_theme: "mmistakes/minimal-mistakes@4.24.0
+remote_theme: "mmistakes/minimal-mistakes@4.24.0"
 
 title: NowGlide
 description: Learn ServiceNow tips, tricks, and architecture!
-url: "https://simranjazz.github.io"  # No trailing slash
-baseurl: "/NowGlide"  # This is IMPORTANT for Project Page! (case-sensitive!)
+url: "https://simranjazz.github.io"
+baseurl: "/NowGlide"
 
 # Build settings
 markdown: kramdown
