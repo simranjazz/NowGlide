@@ -1,4 +1,4 @@
-remote_theme: "mmistakes/minimal-mistakes@4.24.0"
+remote_theme: daattali/beautiful-jekyll@6.0.1
 
 title: NowGlide
 description: Learn ServiceNow tips, tricks, and architecture!
