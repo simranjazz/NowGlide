@@ -7,3 +7,7 @@ baseurl: "/NowGlide"
 
 # Build settings
 markdown: kramdown
+
+header_pages:
+  - index.md
+  - aboutme.md
