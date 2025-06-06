@@ -8,6 +8,4 @@ baseurl: "/NowGlide"
 # Build settings
 markdown: kramdown
 
-header_pages:
-  - index.md
-  - aboutme.md
+custom-css: assets/css/custom-styles.css
