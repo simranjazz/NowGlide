@@ -7,5 +7,3 @@ baseurl: "/NowGlide"
 
 # Build settings
 markdown: kramdown
-
-custom-css: assets/css/custom-styles.css
