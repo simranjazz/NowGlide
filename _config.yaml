@@ -4,8 +4,13 @@ title: NowGlide
 description: Learn ServiceNow tips, tricks, and architecture!
 url: "https://simranjazz.github.io"
 baseurl: "/NowGlide"
+email: "simranjazz@gmail.com"
+author: "Gursimran Singh Saini"
+timezone: "Asia/Kolkata"
 
 # Build settings
 markdown: kramdown
 
 site-css: assets/css/style.css
+
+navbar-col: "#b04848"
