@@ -1,7 +1,6 @@
 ---
 layout: home
 author_profile: true
-favicon: /NowGlide/favicon.ico
 head-extra: head-custom.html
 ---
 
