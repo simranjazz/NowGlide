@@ -1,7 +1,7 @@
 remote_theme: daattali/beautiful-jekyll@6.0.1
 
-title: NowGlide
-description: Learn ServiceNow tips, tricks, and architecture!
+title: NowGlide ServiceNow-verse
+description: Glide Through ServiceNow-verse
 url: "https://simranjazz.github.io"
 baseurl: "/NowGlide"
 email: "simranjazz@gmail.com"
