@@ -4,17 +4,17 @@
     display:none !important;
 }
 
-/* Overall page background */
+/* Page background */
 body {
-    background-color: #f4f5f5;
-    color: #2e2e2e;
+    background-color: #F4F4F4;
+    color: #4D4F53;
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 }
 
-/* Content area (if you want to style .page or .content) */
+/* Content area (optional if you want content boxes) */
 .page,
 .page-content {
-    background-color: #ffffff;
+    background-color: #FFFFFF;
     padding: 2rem;
     border-radius: 8px;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
@@ -22,51 +22,51 @@ body {
 
 /* Navbar */
 .navbar {
-    background-color: #04393c !important;
+    background-color: #00A1E0 !important;
 }
 
 .navbar a,
 .navbar .navbar-brand,
 .navbar .nav-link {
-    color: #ffffff !important;
+    color: #FFFFFF !important;
 }
 
 /* Headings */
 h1, h2, h3, h4, h5, h6 {
-    color: #2e2e2e;
+    color: #4D4F53;
     font-weight: 600;
 }
 
-/* Secondary text (for metadata, post date, etc) */
+/* Secondary text */
 small,
 .text-muted {
-    color: #5e6a71;
+    color: #A7A9AC;
 }
 
 /* Links */
 a {
-    color: #009688;
+    color: #007C7C;
     text-decoration: none;
 }
 
 a:hover {
-    color: #00796b;
+    color: #005F5F;
     text-decoration: underline;
 }
 
 /* Footer */
 footer {
-    background-color: #04393c;
-    color: #ffffff;
+    background-color: #00A1E0;
+    color: #FFFFFF;
     padding: 1.5rem;
     text-align: center;
 }
 
 footer a {
-    color: #80B6A1;
+    color: #FFFFFF;
 }
 
 footer a:hover {
-    color: #009688;
+    color: #A7A9AC;
     text-decoration: underline;
 }
