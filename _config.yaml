@@ -28,7 +28,7 @@ share-links-active:
   vk: true
   reddit: true
 
-url-pretty: "NowGlide.com"
+url-pretty: "https://NowGlide.com"
 
 post_search: true
 
@@ -45,3 +45,5 @@ title-img: "/assets/images/NowGlideLogoInverse.png"
 sidebar:
   featured: true
   recent_posts: true
+
+favicon: "/favicon.ico"
