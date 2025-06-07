@@ -46,4 +46,9 @@ sidebar:
   featured: true
   recent_posts: true
 
+defaults:
+  favicon: "/favicon.ico"
+  head-extra: "<link rel='shortcut icon' type='image/x-icon' href='/favicon.ico?'>"
+
 favicon: "/favicon.ico"
+head-extra: "<link rel='shortcut icon' type='image/x-icon' href='/favicon.ico?'>"
