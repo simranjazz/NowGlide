@@ -46,7 +46,4 @@ sidebar:
   featured: true
   recent_posts: true
 
-defaults:
-  favicon: /NowGlide/favicon.ico
-
-favicon: /NowGlide/favicon.ico
+head-extra: head-custom.html
