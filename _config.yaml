@@ -35,3 +35,10 @@ post_search: true
 title-on-all-pages: true
 
 keywords: "ServiceNow, Service-Now, GlideFast, GlideSoft, ServiceNow Tips, ServiceNow Tricks, ServiceNow Blog"
+
+navbar-links:
+  About Me: "aboutme"
+  Author's home: "https://simranjazz.com"
+  Resources:
+    - Beautiful Jekyll: "https://beautifuljekyll.com"
+    - Learn markdown: "https://www.markdowntutorial.com/"
