@@ -4,4 +4,4 @@ author_profile: true
 ---
 
 Welcome to **NowGlide** — my ServiceNow learning blog!
-Update 15.
+Update 16.

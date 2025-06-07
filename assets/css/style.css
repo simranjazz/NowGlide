@@ -40,7 +40,7 @@ h1, h2, h3, h4, h5, h6 {
 /* Secondary text */
 small,
 .text-muted {
-    color: #80B6A1; /* Optional — or use a lighter gray if desired */
+    color: #80B6A1;
 }
 
 /* Links */
@@ -69,4 +69,80 @@ footer a {
 footer a:hover {
     color: #6aa190;
     text-decoration: underline;
+}
+
+/* Base button style */
+.button,
+button,
+input[type="submit"],
+input[type="button"],
+input[type="reset"] {
+    background-color: #80B6A1;
+    color: #FFFFFF;
+    border: none;
+    padding: 0.6rem 1.2rem;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.2s ease, color 0.2s ease;
+    text-decoration: none;
+    display: inline-block;
+}
+
+/* Hover state */
+.button:hover,
+button:hover,
+input[type="submit"]:hover,
+input[type="button"]:hover,
+input[type="reset"]:hover {
+    background-color: #6aa190;
+    color: #FFFFFF;
+}
+
+/* Secondary button (outline style) */
+.button-secondary {
+    background-color: transparent;
+    color: #80B6A1;
+    border: 2px solid #80B6A1;
+}
+
+.button-secondary:hover {
+    background-color: #80B6A1;
+    color: #FFFFFF;
+}
+
+blockquote {
+    border-left: 5px solid #80B6A1;
+    background-color: #F9F9F9;
+    padding: 1rem 1.5rem;
+    margin: 1.5rem 0;
+    color: #293E40;
+    font-style: italic;
+}
+
+blockquote p {
+    margin: 0;
+}
+
+/* Inline code */
+code {
+    background-color: #F4F4F4;
+    color: #293E40;
+    padding: 0.2rem 0.4rem;
+    border-radius: 3px;
+    font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
+    font-size: 0.95em;
+}
+
+/* Block code */
+pre {
+    background-color: #F4F4F4;
+    color: #293E40;
+    padding: 1rem;
+    border-radius: 5px;
+    overflow-x: auto;
+    font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
+    font-size: 0.95em;
+    line-height: 1.5;
+    margin: 1.5rem 0;
 }
