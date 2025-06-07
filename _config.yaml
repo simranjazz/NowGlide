@@ -8,7 +8,4 @@ baseurl: "/NowGlide"
 # Build settings
 markdown: kramdown
 
-site-css:
-  enable: true
-
 site-css: assets/css/style.css
