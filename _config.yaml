@@ -16,7 +16,6 @@ site-css: assets/css/style.css
 navbar-col: "#80B6A1"
 
 avatar: "/assets/images/gs.png"
-round-avatar: false
 
 social-network-links:
   email: "simranjazz@gmail.com"
@@ -33,6 +32,6 @@ url-pretty: "NowGlide.com"
 
 post_search: true
 
-edit_page_button: true
+title-on-all-pages: true
 
 keywords: "ServiceNow, Service-Now, GlideFast, GlideSoft, ServiceNow Tips, ServiceNow Tricks, ServiceNow Blog"
