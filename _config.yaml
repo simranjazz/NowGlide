@@ -13,6 +13,7 @@ markdown: kramdown
 
 site-css: assets/css/style.css
 
-navbar-col: "#b04848"
+navbar-col: "#80B6A1"
 
 avatar: "/assets/images/gs.png"
+round-avatar: false
