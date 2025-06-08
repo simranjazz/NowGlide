@@ -1,3 +1,8 @@
+---
+layout: page
+head-extra: head-custom.html
+---
+
 {% capture tags %}
   {% for tag in site.tags %}
     {{ tag[0] }}
