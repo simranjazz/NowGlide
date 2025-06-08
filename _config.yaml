@@ -46,4 +46,5 @@ sidebar:
   featured: true
   recent_posts: true
 
-head-extra: head-custom.html
+defaults:
+  head-extra: head-custom.html
