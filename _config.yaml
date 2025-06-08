@@ -40,3 +40,5 @@ navbar-links:
   Tags: "/tags/"
 
 title-img: "/assets/images/NowGlideLogoInverse.png"
+
+link-tags: true
