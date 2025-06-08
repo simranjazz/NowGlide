@@ -5,4 +5,4 @@ head-extra: head-custom.html
 ---
 
 Welcome to **NowGlide** — Learn ServiceNow tips, tricks, guides, and reference material.
-#### Glide Through the NowVerse!
+#### _Glide_ Through the _Now_Verse!
