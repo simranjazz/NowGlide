@@ -13,8 +13,6 @@ markdown: kramdown
 
 site-css: assets/css/style.css
 
-# navbar-col: "#80B6A1"
-
 avatar: "/assets/images/gs.png"
 
 social-network-links:
@@ -42,9 +40,5 @@ navbar-links:
 
 title-img: "/assets/images/NowGlideLogoInverse.png"
 
-sidebar:
-  featured: true
-  recent_posts: true
-
-defaults:
+default:
   head-extra: head-custom.html
