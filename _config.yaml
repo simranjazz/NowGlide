@@ -40,5 +40,7 @@ navbar-links:
 
 title-img: "/assets/images/NowGlideLogoInverse.png"
 
-default:
-  head-extra: head-custom.html
+collections:
+  tags:
+    output: true
+      permalink: /tags/:title/
