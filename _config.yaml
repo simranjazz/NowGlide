@@ -39,8 +39,3 @@ navbar-links:
   Resume: "https://simranjazz.com"
 
 title-img: "/assets/images/NowGlideLogoInverse.png"
-
-collections:
-  tags:
-    output: true
-    permalink: /tags/:title/
