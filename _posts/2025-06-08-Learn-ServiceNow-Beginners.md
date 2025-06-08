@@ -2,8 +2,7 @@
 title: "How to Start Learning ServiceNow - A Practical Guide for Beginners"
 date: 2025-06-08
 tags: [beginner, guide, servicenow]
-cover-img: "https://stock.adobe.com/in/images/logos-of-the-software-company-servicenow-on-a-heap-on-a-table-web-banner-format/582315605"
-comments: true
+cover-img: ["/assets/images/JourneyCoverImage.png" : "Start your journey with ServiceNow"]
 ---
 
 When I first started learning ServiceNow, I wasn’t sure where to begin. The platform is huge — ITSM, HRSD, CSM, scripting, Flow Designer, UI Builder… it can feel overwhelming.
