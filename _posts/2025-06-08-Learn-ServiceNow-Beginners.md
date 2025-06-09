@@ -1,7 +1,7 @@
 ---
 title: "How to Start Learning ServiceNow - A Practical Guide for Beginners"
 date: 2025-06-08
-tags: [level-beginner, guides, start learning servicenow]
+tags: [level-beginner, guides, getting-started]
 cover-img: ["/assets/images/JourneyCoverImage.png" : "Start your journey with ServiceNow"]
 thumbnail-img: "/assets/images/JourneyCoverImage.png"
 head-extra: head-custom.html
