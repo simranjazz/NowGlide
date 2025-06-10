@@ -160,3 +160,28 @@ pre {
 .post-image {
   width: 100%;
 }
+
+/* Overlay background behind post title on big-img header */
+
+.intro-header .page-heading,
+.intro-header .post-heading {
+  position: relative;
+  display: inline-block;
+  padding: 0.6rem 1rem;
+  background-color: rgba(0, 0, 0, 0.4); /* semi-transparent black */
+  color: #fff !important;
+  border-radius: 6px;
+  backdrop-filter: blur(4px); /* optional - adds nice blur effect */
+}
+
+.intro-header .page-heading h1,
+.intro-header .post-heading h1 {
+  color: #fff !important;
+  margin: 0;
+  font-weight: 700;
+}
+
+.intro-header .page-heading .subheading,
+.intro-header .post-heading .subheading {
+  color: #ddd !important;
+}

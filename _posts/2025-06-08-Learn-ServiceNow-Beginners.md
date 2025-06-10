@@ -12,4 +12,4 @@ When I first started learning ServiceNow, I wasn’t sure where to begin. The pl
 In this post, I’ll share a simple, practical way to start learning ServiceNow without getting lost. Whether you’re an admin, developer, or just curious — this guide will help you take your first steps confidently.
 
 # 1. What is ServiceNow?
-2. # Set up a free personal developer instance (PDI)
+# 2. Set up a free personal developer instance (PDI)
