@@ -4,7 +4,6 @@ title: About me
 subtitle: ServiceNow Aspirant | PSPO 1 certified | Program/Product management | Solution architect | Developer (Of course)
 readtime: true
 head-extra: head-custom.html
-full-width: true
 ---
 
 ### Background
