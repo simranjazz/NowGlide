@@ -14,23 +14,13 @@ In this post, I’ll share a simple, practical way to start learning ServiceNow 
 
 # 1. What is ServiceNow?
 When I first started learning ServiceNow, I thought it was just a ticketing tool for IT support. But very quickly, I realized it’s much more than that.
-ServiceNow is a powerful cloud platform that helps businesses manage and automate workflows across departments — IT, HR, customer service, security, and more. It’s like a central engine that keeps things running smoothly inside large organizations.
-Instead of juggling emails, spreadsheets, or manual processes, teams use ServiceNow to build structured, trackable, and often automated workflows — so that work gets done faster and more reliably.
-Whether you’re handling incidents, onboarding employees, approving hardware, or resolving customer issues — there’s a good chance ServiceNow can be used to design, automate, and monitor the process.
+
+ServiceNow is a powerful cloud platform that helps businesses manage and automate workflows across departments — IT, HR, customer service, security, and more. It’s like a central engine that keeps things running smoothly inside large organizations. Instead of juggling emails, spreadsheets, or manual processes, teams use ServiceNow to build structured, trackable, and often automated workflows — so that work gets done faster and more reliably. Whether you’re handling incidents, onboarding employees, approving hardware, or resolving customer issues — there’s a good chance ServiceNow can be used to design, automate, and monitor the process.
 
 As someone new to it, I’ve come to think of it like this:
 If Excel organizes numbers, and Gmail organizes messages, ServiceNow organizes work.
 
-ServiceNow is a cloud-native enterprise platform-as-a-service (PaaS) that enables large-scale enterprise transformation by orchestrating AI, data and workflows. Originally launched as an ITSM tool, ServiceNow has evolved into a comprehensive workflow automation engine—powering experiences across IT, HR, customer service, risk, procurement, and beyond.
-
-At its core, ServiceNow offers a common data model (CMDB), a metadata-driven architecture, and a robust low-code development environment (App Engine). These allow enterprises to digitize complex business services at scale, leveraging components like:
-
-* Flow Designer & IntegrationHub for orchestration and automation
-* Now Experience UI Framework and UI Builder for modern front-end design
-* Virtual Agent, AI Search, Predictive Intelligence, and Process Mining for intelligent automation
-* Performance Analytics for real-time, actionable insights
-
-ServiceNow’s value proposition lies in its ability to unify siloed systems through its single data model, platform extensibility, and governed app development lifecycle—all while offering enterprise-grade security, scalability, and compliance. ServiceNow AI platform unifies intelligence, data and orchestration. Do read the official article on [What is ServiceNow (Official)?](https://www.servicenow.com/what-is-servicenow.html)
+Have a look at the official article on, [What is ServiceNow (Official)?](https://www.servicenow.com/what-is-servicenow.html)
 
 # 2. Set up a free personal developer instance (PDI)
 # 3. ServiceNow official learning platform
