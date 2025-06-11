@@ -20,7 +20,7 @@ ServiceNow is a powerful cloud platform that helps businesses manage and automat
 As someone new to it, I’ve come to think of it like this:
 If Excel organizes numbers, and Gmail organizes messages, ServiceNow organizes work.
 
-Have a look at the official article on, [What is ServiceNow (Official)?](https://www.servicenow.com/what-is-servicenow.html)
+Have a look at the official article on, [What is ServiceNow (Official)?](https://www.servicenow.com/what-is-servicenow.html){:target="_blank"}
 
 # 2. Set up a free personal developer instance (PDI)
 # 3. ServiceNow official learning platform
