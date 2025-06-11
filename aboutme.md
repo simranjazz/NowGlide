@@ -1,6 +1,6 @@
 ---
 layout: page
-title: NowGlide | Gursimran | About me
+title: About me
 subtitle: ServiceNow | PSPO 1 certified | Program/Product management | Solution architect | Developer (Fundamentally)
 readtime: true
 head-extra: head-custom.html
