@@ -11,7 +11,7 @@ timezone: "Asia/Kolkata"
 # Build settings
 markdown: kramdown
 
-# site-css: assets/css/style.css
+site-css: assets/css/style.css
 
 avatar: "/assets/images/gs.png"
 
