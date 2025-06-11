@@ -25,15 +25,15 @@ Have a look at the official article on, [What is ServiceNow (Official)?](https:/
 # 2. Set up a free personal developer instance (PDI)
 Before you can start building anything on ServiceNow, you’ll need a place to practice — and the best part is: ServiceNow gives you one for free, well, one per account. It’s called a Personal Developer Instance (PDI).
 
-> PDIs were launched at the Knowledge 15 event, in 2015, and ServiceNow witnessed over 21,000 registrations for the PDI, that year alone! And there were no other advertisements, no internet posts, no press release. Just the Knowledge 15. I learned this from episode 9 (Yes, I opened Podcasts and searched for the episode number `_`) of the ServiceNow TechBytes podcast.
+> PDIs were launched at the Knowledge 15 event, in 2015, and ServiceNow witnessed over 21,000 registrations for the PDI, that year alone! And there were no other advertisements, no internet posts, no press release. Just the Knowledge 15. I learned this from episode 9 (Yes, I opened Podcasts and searched for the episode number >_>) of the ServiceNow TechBytes podcast.
 
 A PDI is your own private copy of the ServiceNow platform, hosted in the cloud, just for you. It’s where you can click around, break things, experiment, build apps, and learn by doing - without needing your company’s access or worrying about messing up someone else’s system.
 
-[PDI FAQs](https://developer.servicenow.com/dev.do#!/guides/yokohama/now-platform/faq/pdi_faq)
+[PDI FAQs](https://developer.servicenow.com/dev.do#!/guides/yokohama/now-platform/faq/pdi_faq){:target="_blank"}
 
 Here’s how I got mine in under 10 minutes:
 
-* Go to developer.servicenow.com
+* Go to [developer.servicenow.com](https://developer.servicenow.com){:target="_blank"}
 * Sign up for a free account
 * Once logged in, click “Request Instance”
 * Choose the latest release (unless you need something specific)
@@ -42,9 +42,20 @@ Here’s how I got mine in under 10 minutes:
 
 > ServiceNow does not offer support for PDIs. I've only ever experienced an outage on PDIs once, which was addressed by ServiceNow, in a few weeks. In case you are not able to access your PDI during a declared outage, I would suggest to wait, the instance will be back up when the outage is over. If you don't have any data/config/customizations to get back to, then you can release the current instance and request for a new one.
 
-    PDI instances expire after 10 days of inactivity. Do login every few days!
+PDI instances expire after 10 days of inactivity. Do login every few days!
 
 # 3. ServiceNow official learning platform
+Once your developer instance is ready, the next big question is: "Where do I actually start learning?"
+The answer is easy — ServiceNow’s official learning portal.
+
+It’s called Now Learning and it’s the best place to begin. It’s completely free, and it has structured learning paths for beginners, admins, developers, architects, and more.
+
+When I first logged in, I found the courses well-organized and beginner-friendly. You can start with:
+
+🟢 ServiceNow Basics – great for understanding the interface and core features
+🧩 Application Development Fundamentals – if you want to build apps
+🛠️ ITSM Fundamentals – if you're leaning toward IT support processes
+They even offer badges and certificates for many of the modules, which is a nice motivator — and a good thing to add to your LinkedIn or resume.
 # 4. Learn core modules first
 # 5. Learn to customize - without code first!
 # 6. Gradually start scripting
