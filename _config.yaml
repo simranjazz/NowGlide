@@ -43,4 +43,5 @@ title-img: "/assets/images/NowGlideLogoInverse.png"
 
 feed_show_tags: true
 
-sitemap: true
+plugins:
+  - jekyll-sitemap
