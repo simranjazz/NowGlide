@@ -48,14 +48,18 @@ PDI instances expire after 10 days of inactivity. Do login every few days!
 Once your developer instance is ready, the next big question is: "Where do I actually start learning?"
 The answer is easy — ServiceNow’s official learning portal.
 
-It’s called Now Learning and it’s the best place to begin. It’s completely free, and it has structured learning paths for beginners, admins, developers, architects, and more.
+It’s called [ServiceNow University](https://learning.servicenow.com){:target="_blank"} (Used to be called NowLearning) and it’s the best place to begin. It’s completely free, and it has structured learning paths for beginners, admins, developers, architects, and more.
 
 When I first logged in, I found the courses well-organized and beginner-friendly. You can start with:
 
-🟢 ServiceNow Basics – great for understanding the interface and core features
-🧩 Application Development Fundamentals – if you want to build apps
-🛠️ ITSM Fundamentals – if you're leaning toward IT support processes
+* 🟢 ServiceNow Basics – great for understanding the interface and core features
+* 🧩 Application Development Fundamentals – if you want to build apps
+* 🛠️ ITSM Fundamentals – if you're leaning toward IT support processes
+
 They even offer badges and certificates for many of the modules, which is a nice motivator — and a good thing to add to your LinkedIn or resume.
+
+> My approach to learning was different, I learned it all by going through [ServiceNow official documentation](https://www.servicenow.com/docs/){:target="_blank"}. It was important for me to understand the core platform first, the Now Platform, now called ServiceNow AI Platform. Yes, as of May 2025, in a press release, and also at Knowledge 2025, ServiceNow has renamed Now Platform to ServiceNow AI Platform. My way of learning was to learn the [ServiceNow AI Platform](https://www.servicenow.com/docs/csh?topicname=now-platform-landing.html&version=latest){:target="_blank"} through its official documentaiton, top down & sequentially. Most would find this method monotonous, but I believe documentation is the only and single source of truth, for a product, the bible, and I found this method quite intertesting, all through!
+
 # 4. Learn core modules first
 # 5. Learn to customize - without code first!
 # 6. Gradually start scripting
