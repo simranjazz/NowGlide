@@ -123,7 +123,7 @@ Every small script you write builds confidence. And soon, “code fear” turns 
 # 7. Join the community
 Community
 
-# Quick start ServiceNow Scripting
+# _Quick start ServiceNow Scripting_
 Before diving deeper, here’s a mini map of the scripting landscape inside ServiceNow:
 
 * **Glide API**
@@ -140,6 +140,7 @@ These run in the user’s browser (forms, UI actions, etc.), and are used for th
   * Validating form inputs
   * Auto-filling values in real-time  
 
+
 * **Server-side scripts**
   These run on the ServiceNow server, and handle:
   * Database updates
@@ -153,7 +154,8 @@ These run in the user’s browser (forms, UI actions, etc.), and are used for th
   * Script Include
   * Flow Designer - Script Step
   * Scheduled Job
-  * Fix Script
+  * Fix Script  
+
 
 * **Synchronous vs Asynchronous**
   * Synchronous scripts block the user until finished (e.g., before insert/update rules)
