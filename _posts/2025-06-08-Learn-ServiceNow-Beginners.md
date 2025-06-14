@@ -14,8 +14,7 @@ In this post, I’ll share a simple, practical way to start learning ServiceNow 
 
 # 1. What is ServiceNow?
 
-{:toc}
-{% include toc.html html=content %}
+{% toc %}
 
 When I first started learning ServiceNow, I thought it was just a ticketing tool for IT support. But very quickly, I realized it’s much more than that.
 
