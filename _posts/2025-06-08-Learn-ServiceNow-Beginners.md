@@ -7,12 +7,15 @@ thumbnail-img: "/assets/images/JourneyCoverImage.png"
 head-extra: head-custom.html
 readtime: true
 css: "/assets/css/post.css"
+{:toc}
+{::toc}
 ---
 
 When I first started learning ServiceNow, I wasn’t sure where to begin. The platform is huge — ITSM, HRSD, CSM, scripting, Flow Designer, UI Builder... it can feel overwhelming.
 In this post, I’ll share a simple, practical way to start learning ServiceNow without getting lost. Whether you’re an admin, developer, or just curious — this guide will help you take your first steps confidently.
 
 {:toc}
+{::toc}
 
 # 1. What is ServiceNow?
 When I first started learning ServiceNow, I thought it was just a ticketing tool for IT support. But very quickly, I realized it’s much more than that.
@@ -146,21 +149,21 @@ I started by just reading threads, then slowly started answering newbie question
 # _Quick start ServiceNow Scripting_
 Before diving deeper, here’s a mini map of the scripting landscape inside ServiceNow:
 
-## * **Glide API**
+* ## **Glide API**
 This is ServiceNow’s custom JavaScript API — it lets you interact with the database, users, records, etc.
 Think of GlideRecord, GlideDateTime, gs.log(), etc. as the tools you'll use to do things in scripts.
 
-## * _current_ **object**
+* ## _current_ **object**
 This refers to the current record in Business Rules, Script Actions, or Flow Script steps.
 Example: current.short_description lets you read or modify that field on the fly.
 
-## * **Client-side scripts**
+* ## **Client-side scripts**
 These run in the user’s browser (forms, UI actions, etc.), and are used for things like:
   * Showing/hiding fields
   * Validating form inputs
   * Auto-filling values in real-time  
 
-## * **Server-side scripts**
+* ## **Server-side scripts**
   These run on the ServiceNow server, and handle:
   * Database updates
   * Record-level logic
@@ -175,7 +178,7 @@ These run in the user’s browser (forms, UI actions, etc.), and are used for th
   * Scheduled Job
   * Fix Script  
 
-## * **Synchronous vs Asynchronous**
+* ## **Synchronous vs Asynchronous**
   * Synchronous scripts block the user until finished (e.g., before insert/update rules)
   * Asynchronous scripts run in the background (e.g., async Business Rule, Scheduled Job)
 
