@@ -12,6 +12,8 @@ css: "/assets/css/post.css"
 When I first started learning ServiceNow, I wasn’t sure where to begin. The platform is huge — ITSM, HRSD, CSM, scripting, Flow Designer, UI Builder... it can feel overwhelming.
 In this post, I’ll share a simple, practical way to start learning ServiceNow without getting lost. Whether you’re an admin, developer, or just curious — this guide will help you take your first steps confidently.
 
+{:toc}
+
 # 1. What is ServiceNow?
 When I first started learning ServiceNow, I thought it was just a ticketing tool for IT support. But very quickly, I realized it’s much more than that.
 
@@ -22,14 +24,14 @@ If Excel organizes numbers, and Gmail organizes messages, ServiceNow organizes w
 
 Have a look at the official article on, [What is ServiceNow (Official)?](https://www.servicenow.com/what-is-servicenow.html#what-does-servicenow-do){:target="_blank"}
 
-# 2. Set up a free personal developer instance (PDI)
+# 2. Set Up Your Free Practice Instance (PDI)
 Before you can start building anything on ServiceNow, you’ll need a place to practice — and the best part is: ServiceNow gives you one for free, well, one per account. It’s called a Personal Developer Instance (PDI).
 
 > PDIs were launched at the Knowledge 15 event, in 2015, and ServiceNow witnessed over 21,000 registrations for the PDI, that year alone! And there were no other advertisements, no internet posts, no press release. Just the Knowledge 15. I learned this from episode 9 (Yes, I opened Podcasts and searched for the episode number >_>) of the ServiceNow TechBytes podcast.
 
 A PDI is your own private copy of the ServiceNow platform, hosted in the cloud, just for you. It’s where you can click around, break things, experiment, build apps, and learn by doing - without needing your company’s access or worrying about messing up someone else’s system.
 
-[PDI FAQs](https://developer.servicenow.com/dev.do#!/guides/yokohama/now-platform/faq/pdi_faq){:target="_blank"}
+Check out the [PDI FAQs](https://developer.servicenow.com/dev.do#!/guides/yokohama/now-platform/faq/pdi_faq){:target="_blank"} to understand what’s supported, how to reset, and common issues.
 
 Here’s how I got mine in under 10 minutes:
 
@@ -58,9 +60,9 @@ When I first logged in, I found the courses well-organized and beginner-friendly
 
 They even offer badges and certificates for many of the modules, which is a nice motivator — and a good thing to add to your LinkedIn or resume.
 
-> My approach to learning was different, I learned it all by going through [ServiceNow official documentation](https://www.servicenow.com/docs/){:target="_blank"}. It was important for me to understand the core platform first, the Now Platform, now called ServiceNow AI Platform. Yes, as of May 2025, in a press release, and also at Knowledge 2025, ServiceNow has renamed Now Platform to ServiceNow AI Platform. My way of learning was to learn the [ServiceNow AI Platform](https://www.servicenow.com/docs/csh?topicname=now-platform-landing.html&version=latest){:target="_blank"} through its official documentaiton, top down & sequentially. Most would find this method monotonous, but I believe documentation is the only and single source of truth, for a product, the bible, and I found this method quite intertesting, all through!
+> My approach to learning was different, I learned it all by going through [ServiceNow official documentation](https://www.servicenow.com/docs/){:target="_blank"}. It was important for me to understand the core platform first, the Now Platform, now called ServiceNow AI Platform. In a May 2025 press release and at Knowledge 2025, ServiceNow announced that the Now Platform has been renamed to the ServiceNow AI Platform. My way of learning was to learn the [ServiceNow AI Platform](https://www.servicenow.com/docs/csh?topicname=now-platform-landing.html&version=latest){:target="_blank"} through its official documentaiton, top down & sequentially. Most would find this method monotonous, but I believe documentation is the only and single source of truth, for a product, the bible, and I found this method quite intertesting, throughout!
 
-# 4. Learn core modules first
+# 4. Focus on Core Modules First
 When I first opened my ServiceNow instance, I was blown away by how many modules there were — ITSM, HRSD, CSM, SecOps, App Engine, and so on. It was like walking into a giant airport and not knowing which terminal to go to.
 
 So here’s what helped me:
@@ -84,7 +86,7 @@ Later, you can explore advanced or niche modules — but these basics are where 
 One of the biggest myths I believed early on was: “To do anything useful in ServiceNow, I need to know JavaScript.”
 But thankfully, that’s not true — at least not in the beginning.
 
-> I did, however, already had prior extensive experience in JavaScript and its frameworks and libraries.
+> I did, however, already have prior extensive experience in JavaScript and its frameworks and libraries.
 
 ServiceNow gives you a ton of power to customize the platform without writing a single line of code. These no-code tools are your best friends when you’re just starting out:
 
@@ -97,7 +99,7 @@ I personally started by tweaking forms, hiding fields, setting default values, a
 
 So before diving into code, get comfortable with what you can do without it. You’ll understand the platform better, and when you eventually write scripts, they’ll actually make sense.
 
-# 6. Gradually start scripting
+# 6. Ease Into Scripting (When You’re Ready)
 Once you're comfortable customizing without code, you’ll eventually hit a wall where visual tools aren’t enough. That’s when scripting enters the picture — and honestly, this is where ServiceNow gets really fun.
 
 But don’t worry — you don’t need to become a JavaScript ninja overnight.
@@ -128,54 +130,52 @@ The ServiceNow community is one of the most active, generous, and beginner-frien
 
 Here’s where I started (and still hang out):
 
-* [ServiceNow Community Forum](https://www.servicenow.com/community/)
+* [ServiceNow Community Forum](https://www.servicenow.com/community/){:target="_blank"}
 It’s like Stack Overflow — but just for ServiceNow. You can search for any error or question, and someone has probably already answered it. Don’t hesitate to ask your own beginner questions — people are surprisingly helpful.
-* [ServiceNow Developer Site](https://developer.servicenow.com)
+* [ServiceNow Developer Site](https://developer.servicenow.com){:target="_blank"}
 It’s not just for downloading your PDI — it also has documentation, tutorials, and learning plans. The blog posts and "TechBytes" series here are gold.
 * YouTube Channels
   * ServiceNow Dev Program (official channel)
   * ServiceNow Guru, The SN Guys, Tim Woodruff, etc. — tons of great walkthroughs.
 * Reddit & Discord
-[/r/servicenow](https://www.reddit.com/r/servicenow/) – Honest discussions, memes, and real-world advice
-[SN developers discord](https://discord.snc.guru/) – Live chat with ServiceNow professionals and learners
+[/r/servicenow](https://www.reddit.com/r/servicenow/){:target="_blank"} – Honest discussions, memes, and real-world advice
+[SN developers discord](https://discord.snc.guru/){:target="_blank"} – Live chat with ServiceNow professionals and learners
 
 I started by just reading threads, then slowly started answering newbie questions. Trust me — the moment you help someone else, your confidence multiplies.
 
 # _Quick start ServiceNow Scripting_
 Before diving deeper, here’s a mini map of the scripting landscape inside ServiceNow:
 
-* **Glide API**
+## * **Glide API**
 This is ServiceNow’s custom JavaScript API — it lets you interact with the database, users, records, etc.
 Think of GlideRecord, GlideDateTime, gs.log(), etc. as the tools you'll use to do things in scripts.
 
-* _current_ **object**
+## * _current_ **object**
 This refers to the current record in Business Rules, Script Actions, or Flow Script steps.
 Example: current.short_description lets you read or modify that field on the fly.
 
-* **Client-side scripts**
+## * **Client-side scripts**
 These run in the user’s browser (forms, UI actions, etc.), and are used for things like:
   * Showing/hiding fields
   * Validating form inputs
   * Auto-filling values in real-time  
 
-
-* **Server-side scripts**
+## * **Server-side scripts**
   These run on the ServiceNow server, and handle:
   * Database updates
   * Record-level logic
   * Background jobs  
-  These can be:
+  _These can be:_
   * Global scripts (used across older apps)
   * Scoped scripts (used in newer apps or Studio-built apps)  
-  Examples:
+  _Examples:_
   * Business Rule
   * Script Include
   * Flow Designer - Script Step
   * Scheduled Job
   * Fix Script  
 
-
-* **Synchronous vs Asynchronous**
+## * **Synchronous vs Asynchronous**
   * Synchronous scripts block the user until finished (e.g., before insert/update rules)
   * Asynchronous scripts run in the background (e.g., async Business Rule, Scheduled Job)
 
