@@ -158,44 +158,38 @@ I started by just reading threads, then slowly started answering newbie question
 
 Before diving deeper, here’s a mini map of the scripting landscape inside ServiceNow:
 
-- ## **Glide API**
+## Glide API
+This is ServiceNow’s custom JavaScript API — it lets you interact with the database, users, records, etc.
+Think of GlideRecord, GlideDateTime, gs.log(), etc. as the tools you'll use to do things in scripts.
 
-  This is ServiceNow’s custom JavaScript API — it lets you interact with the database, users, records, etc.
-  Think of GlideRecord, GlideDateTime, gs.log(), etc. as the tools you'll use to do things in scripts.
+## _current_ object
+This refers to the current record in Business Rules, Script Actions, or Flow Script steps.
+Example: current.short_description lets you read or modify that field on the fly.
 
-- ## _current_ **object**
+## Client-side scripts
+These run in the user’s browser (forms, UI actions, etc.), and are used for things like:
+ * Showing/hiding fields
+ * Validating form inputs
+ * Auto-filling values in real-time
 
-  This refers to the current record in Business Rules, Script Actions, or Flow Script steps.
-  Example: current.short_description lets you read or modify that field on the fly.
+## Server-side scripts
+These run on the ServiceNow server, and handle:
+  * Database updates
+  * Record-level logic
+  * Background jobs  
+_These can be:_
+  * Global scripts (used across older apps)
+  * Scoped scripts (used in newer apps or Studio-built apps)  
+_Examples:_
+  * Business Rule
+  * Script Include
+  * Flow Designer - Script Step
+  * Scheduled Job
+  * Fix Script
 
-- ## **Client-side scripts**
-
-  These run in the user’s browser (forms, UI actions, etc.), and are used for things like:
-
-  - Showing/hiding fields
-  - Validating form inputs
-  - Auto-filling values in real-time
-
-- ## **Server-side scripts**
-
-  These run on the ServiceNow server, and handle:
-
-  - Database updates
-  - Record-level logic
-  - Background jobs  
-    _These can be:_
-  - Global scripts (used across older apps)
-  - Scoped scripts (used in newer apps or Studio-built apps)  
-    _Examples:_
-  - Business Rule
-  - Script Include
-  - Flow Designer - Script Step
-  - Scheduled Job
-  - Fix Script
-
-- ## **Synchronous vs Asynchronous**
-  - Synchronous scripts block the user until finished (e.g., before insert/update rules)
-  - Asynchronous scripts run in the background (e.g., async Business Rule, Scheduled Job)
+## Synchronous vs Asynchronous
+ * Synchronous scripts block the user until finished (e.g., before insert/update rules)
+ * Asynchronous scripts run in the background (e.g., async Business Rule, Scheduled Job)
 
 > Pro Tip: You can explore the [Glide API Reference](https://developer.servicenow.com/dev.do#!/reference){:target="\_blank"} to see all the available scripting methods.
 
