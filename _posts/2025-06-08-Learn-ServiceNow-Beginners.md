@@ -106,7 +106,7 @@ I started small:
 * Wrote my first script to auto-fill a field based on another field
 * Used the Script Debugger and Logs to watch how my code worked (or didn’t)
 
-> Even if you know JavaScript, you'd have to understand the Glide framework of the Now Platform (Yes, that's how this site is named :)). I have prepared a [quick kick start guide to ServiceNow scripting](#quick-start-servicenow-scripting), a lenghtier one will come later.
+> Even if you know JavaScript, you'd have to understand the Glide framework of the Now Platform (Yes, that's how I named this site). I have prepared a [quick kick start guide to ServiceNow scripting](#quick-start-servicenow-scripting), a lenghtier one will come later.
 
 Here are a few common scripting entry points:
 1. Business Rules - Trigger logic when records are inserted, updated, or deleted
@@ -153,7 +153,7 @@ Examples:
   * Synchronous scripts block the user until finished (e.g., before insert/update rules)
   * Asynchronous scripts run in the background (e.g., async Business Rule, Scheduled Job)
 
-> Pro Tip: You can explore the Glide API Reference to see all the available scripting methods.
+> Pro Tip: You can explore the [Glide API Reference](https://developer.servicenow.com/dev.do#!/reference){:target="_blank"} to see all the available scripting methods.
 
 The key to learning ServiceNow is to stay consistent and hands-on. Don’t be afraid to experiment — break your PDI, request a new one, try again. The platform is very deep, and the more you build, the more you learn.
 I’m still learning myself — if you have questions, feel free to email or connect with me on LinkedIn!
