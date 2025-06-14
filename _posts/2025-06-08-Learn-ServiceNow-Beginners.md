@@ -67,12 +67,11 @@ So here’s what helped me:
 I focused first on the core modules — the ones that most companies use and most interviews care about.
 
 Start with these three:
-
-* **Incident, Problem, and Change Management (ITSM)**..
+* **Incident, Problem, and Change Management (ITSM)**
 These are the heart of IT workflows in ServiceNow. Learn how tickets (aka “records”) flow through different states, how users interact with them, and how SLAs work.
-* **Knowledge Management**..
+* **Knowledge Management**
 This teaches you how companies store and share documentation inside ServiceNow — a surprisingly important skill when building any real-world solution.
-* **Request Management & Catalog Items**.
+* **Request Management & Catalog Items**
 Want to learn how to create a self-service portal where users can order things like laptops or access? This is where that magic happens.
 
 By starting with these, you’ll get used to key concepts like forms, lists, workflows, user roles (ACLs), approvals, and data structures. And you’ll start seeing the platform not just as a tool, but as a framework for how real businesses operate.
@@ -83,7 +82,7 @@ Later, you can explore advanced or niche modules — but these basics are where 
 One of the biggest myths I believed early on was: “To do anything useful in ServiceNow, I need to know JavaScript.”
 But thankfully, that’s not true — at least not in the beginning.
 
-> I do, however, already had prior extensive experience in JavaScript and its frameworks and libraries.
+> I did, however, already had prior extensive experience in JavaScript and its frameworks and libraries.
 
 ServiceNow gives you a ton of power to customize the platform without writing a single line of code. These no-code tools are your best friends when you’re just starting out:
 
@@ -103,7 +102,6 @@ But don’t worry — you don’t need to become a JavaScript ninja overnight.
 ServiceNow scripting is mostly based on server-side JavaScript with some platform-specific syntax and APIs.
 
 I started small:
-
 * Looked at existing Business Rules and tried to understand what they were doing
 * Wrote my first script to auto-fill a field based on another field
 * Used the Script Debugger and Logs to watch how my code worked (or didn’t)
@@ -116,7 +114,7 @@ Here are a few common scripting entry points:
 3. Client Scripts - Run in the browser to show/hide fields, validate inputs, etc.
 4. Flow Designer with Script Actions - Add custom logic inside visual workflows using Actions (Script step)
 
-You don’t need to master them all at once. My tip? Pick one scenario that needs scripting (like setting a field value based on a condition), and try solving it with help from the [Scripting in ServiceNow | ServiceNow Developers](https://developer.servicenow.com/dev.do#!/learn/courses/yokohama/app_store_learnv2_scripting_yokohama_scripting_in_servicenow){:target="_blank"}.
+You don’t need to master them all at once. My tip? Pick one scenario that needs scripting (like setting a field value based on a condition), and try solving it with help from the [Scripting in ServiceNow](https://developer.servicenow.com/dev.do#!/learn/courses/yokohama/app_store_learnv2_scripting_yokohama_scripting_in_servicenow){:target="_blank"}.
 
 Every small script you write builds confidence. And soon, “code fear” turns into “code curiosity.”
 
@@ -134,26 +132,26 @@ This refers to the current record in Business Rules, Script Actions, or Flow Scr
 Example: current.short_description lets you read or modify that field on the fly.
 * **Client-side scripts**
 These run in the user’s browser (forms, UI actions, etc.), and are used for things like:
- * Showing/hiding fields
- * Validating form inputs
- * Auto-filling values in real-time
+  * Showing/hiding fields
+  * Validating form inputs
+  * Auto-filling values in real-time
 * **Server-side scripts**
 These run on the ServiceNow server, and handle:
- * Database updates
- * Record-level logic
- * Background jobs
+  * Database updates
+  * Record-level logic
+  * Background jobs
 These can be:
- * Global scripts (used across older apps)
- * Scoped scripts (used in newer apps or Studio-built apps)
+  * Global scripts (used across older apps)
+  * Scoped scripts (used in newer apps or Studio-built apps)
 Examples:
- * Business Rule
- * Script Include
- * Flow Designer - Script Step
- * Scheduled Job
- * Fix Script
+  * Business Rule
+  * Script Include
+  * Flow Designer - Script Step
+  * Scheduled Job
+  * Fix Script
 * **Synchronous vs Asynchronous**
- * Synchronous scripts block the user until finished (e.g., before insert/update rules)
- * Asynchronous scripts run in the background (e.g., async Business Rule, Scheduled Job)
+  * Synchronous scripts block the user until finished (e.g., before insert/update rules)
+  * Asynchronous scripts run in the background (e.g., async Business Rule, Scheduled Job)
 
 > Pro Tip: You can explore the Glide API Reference to see all the available scripting methods.
 
