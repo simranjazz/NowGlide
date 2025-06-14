@@ -19,6 +19,8 @@ social-network-links:
   email: "simranjazz@gmail.com"
   linkedin: "simranjazz"
 
+share-buttons: true
+
 share-links-active:
   twitter: true
   facebook: true

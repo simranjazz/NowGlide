@@ -1,12 +1,17 @@
 ---
 title: "How to Start Learning ServiceNow - A Practical Guide for Beginners"
+share-title: "How to Start Learning ServiceNow - A Practical Guide for Beginners"
+subtitle: "Test subtitle"
 date: 2025-06-08
+last-updated: 2025-06-14
 tags: [level-beginner, guides, getting-started]
 cover-img: ["/assets/images/JourneyCoverImage.png"]
 thumbnail-img: "/assets/images/JourneyCoverImage.png"
 head-extra: head-custom.html
 readtime: true
 css: "/assets/css/post.css"
+author: "Gursimran Singh Saini"
+show-avatar: true
 ---
 
 * TOC
