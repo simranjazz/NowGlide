@@ -68,9 +68,12 @@ I focused first on the core modules — the ones that most companies use and mos
 
 Start with these three:
 * **Incident, Problem, and Change Management (ITSM)**
+
 These are the heart of IT workflows in ServiceNow. Learn how tickets (aka “records”) flow through different states, how users interact with them, and how SLAs work.
+
 * **Knowledge Management**
 This teaches you how companies store and share documentation inside ServiceNow — a surprisingly important skill when building any real-world solution.
+
 * **Request Management & Catalog Items**
 Want to learn how to create a self-service portal where users can order things like laptops or access? This is where that magic happens.
 
@@ -138,16 +141,15 @@ These run in the user’s browser (forms, UI actions, etc.), and are used for th
   * Validating form inputs
   * Auto-filling values in real-time
 
+
 * **Server-side scripts**
 These run on the ServiceNow server, and handle:
   * Database updates
   * Record-level logic
   * Background jobs
-
 These can be:
   * Global scripts (used across older apps)
   * Scoped scripts (used in newer apps or Studio-built apps)
-
 Examples:
   * Business Rule
   * Script Include
