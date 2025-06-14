@@ -67,14 +67,13 @@ So here’s what helped me:
 I focused first on the core modules — the ones that most companies use and most interviews care about.
 
 Start with these three:
-* **Incident, Problem, and Change Management (ITSM)**
-
+* **Incident, Problem, and Change Management (ITSM)**  
 These are the heart of IT workflows in ServiceNow. Learn how tickets (aka “records”) flow through different states, how users interact with them, and how SLAs work.
 
-* **Knowledge Management**
+* **Knowledge Management**  
 This teaches you how companies store and share documentation inside ServiceNow — a surprisingly important skill when building any real-world solution.
 
-* **Request Management & Catalog Items**
+* **Request Management & Catalog Items**  
 Want to learn how to create a self-service portal where users can order things like laptops or access? This is where that magic happens.
 
 By starting with these, you’ll get used to key concepts like forms, lists, workflows, user roles (ACLs), approvals, and data structures. And you’ll start seeing the platform not just as a tool, but as a framework for how real businesses operate.
