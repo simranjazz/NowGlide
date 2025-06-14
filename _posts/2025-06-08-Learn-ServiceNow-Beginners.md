@@ -21,7 +21,6 @@ As someone new to it, I’ve come to think of it like this:
 If Excel organizes numbers, and Gmail organizes messages, ServiceNow organizes work.
 
 Have a look at the official article on, [What is ServiceNow (Official)?](https://www.servicenow.com/what-is-servicenow.html#what-does-servicenow-do){:target="_blank"}
-
 # 2. Set up a free personal developer instance (PDI)
 Before you can start building anything on ServiceNow, you’ll need a place to practice — and the best part is: ServiceNow gives you one for free, well, one per account. It’s called a Personal Developer Instance (PDI).
 
@@ -43,7 +42,6 @@ Here’s how I got mine in under 10 minutes:
 > ServiceNow does not offer support for PDIs. I've only ever experienced an outage on PDIs once, which was addressed by ServiceNow, in a few weeks. In case you are not able to access your PDI during a declared outage, I would suggest to wait, the instance will be back up when the outage is over. If you don't have any data/config/customizations to get back to, then you can release the current instance and request for a new one.
 
 PDI instances expire after 10 days of inactivity. Do login every few days!
-
 # 3. ServiceNow official learning platform
 Once your developer instance is ready, the next big question is: "Where do I actually start learning?"
 The answer is easy — ServiceNow’s official learning portal.
@@ -59,8 +57,23 @@ When I first logged in, I found the courses well-organized and beginner-friendly
 They even offer badges and certificates for many of the modules, which is a nice motivator — and a good thing to add to your LinkedIn or resume.
 
 > My approach to learning was different, I learned it all by going through [ServiceNow official documentation](https://www.servicenow.com/docs/){:target="_blank"}. It was important for me to understand the core platform first, the Now Platform, now called ServiceNow AI Platform. Yes, as of May 2025, in a press release, and also at Knowledge 2025, ServiceNow has renamed Now Platform to ServiceNow AI Platform. My way of learning was to learn the [ServiceNow AI Platform](https://www.servicenow.com/docs/csh?topicname=now-platform-landing.html&version=latest){:target="_blank"} through its official documentaiton, top down & sequentially. Most would find this method monotonous, but I believe documentation is the only and single source of truth, for a product, the bible, and I found this method quite intertesting, all through!
-
 # 4. Learn core modules first
+When I first opened my ServiceNow instance, I was blown away by how many modules there were — ITSM, HRSD, CSM, SecOps, App Engine, and so on. It was like walking into a giant airport and not knowing which terminal to go to.
+
+So here’s what helped me:
+I focused first on the core modules — the ones that most companies use and most interviews care about.
+
+Start with these three:
+
+* 🔧 Incident, Problem, and Change Management (ITSM)
+These are the heart of IT workflows in ServiceNow. Learn how tickets (aka “records”) flow through different states, how users interact with them, and how SLAs work.
+* 📄 Knowledge Management
+This teaches you how companies store and share documentation inside ServiceNow — a surprisingly important skill when building any real-world solution.
+* 📋 Request Management & Catalog Items
+Want to learn how to create a self-service portal where users can order things like laptops or access? This is where that magic happens.
+By starting with these, you’ll get used to key concepts like forms, lists, workflows, user roles (ACLs), approvals, and data structures. And you’ll start seeing the platform not just as a tool, but as a framework for how real businesses operate.
+
+Later, you can explore advanced or niche modules — but these basics are where 90% of new learners (and jobs!) begin.
 # 5. Learn to customize - without code first!
 # 6. Gradually start scripting
 # 7. Join the community
