@@ -45,4 +45,3 @@ feed_show_tags: true
 
 plugins:
   - jekyll-sitemap
-  - jekyll-toc
