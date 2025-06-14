@@ -121,7 +121,25 @@ You don’t need to master them all at once. My tip? Pick one scenario that need
 Every small script you write builds confidence. And soon, “code fear” turns into “code curiosity.”
 
 # 7. Join the community
-Community
+When you're learning something as broad as ServiceNow, Google and YouTube can only take you so far. The real magic happens when you plug into the ServiceNow community.
+
+I can't stress this enough:
+The ServiceNow community is one of the most active, generous, and beginner-friendly tech spaces I’ve ever seen.
+
+Here’s where I started (and still hang out):
+
+* [ServiceNow Community Forum](https://www.servicenow.com/community/)
+It’s like Stack Overflow — but just for ServiceNow. You can search for any error or question, and someone has probably already answered it. Don’t hesitate to ask your own beginner questions — people are surprisingly helpful.
+* [ServiceNow Developer Site](https://developer.servicenow.com)
+It’s not just for downloading your PDI — it also has documentation, tutorials, and learning plans. The blog posts and "TechBytes" series here are gold.
+* YouTube Channels
+  * ServiceNow Dev Program (official channel)
+  * ServiceNow Guru, The SN Guys, Tim Woodruff, etc. — tons of great walkthroughs.
+* Reddit & Discord
+[/r/servicenow](https://www.reddit.com/r/servicenow/) – Honest discussions, memes, and real-world advice
+[SN developers discord](https://discord.snc.guru/) – Live chat with ServiceNow professionals and learners
+
+I started by just reading threads, then slowly started answering newbie questions. Trust me — the moment you help someone else, your confidence multiplies.
 
 # _Quick start ServiceNow Scripting_
 Before diving deeper, here’s a mini map of the scripting landscape inside ServiceNow:
