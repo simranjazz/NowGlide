@@ -145,9 +145,11 @@ These run on the ServiceNow server, and handle:
   * Database updates
   * Record-level logic
   * Background jobs  
+
 These can be:
   * Global scripts (used across older apps)
   * Scoped scripts (used in newer apps or Studio-built apps)  
+
 Examples:
   * Business Rule
   * Script Include
