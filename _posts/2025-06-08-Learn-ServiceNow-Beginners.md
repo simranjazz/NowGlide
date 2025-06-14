@@ -57,6 +57,7 @@ When I first logged in, I found the courses well-organized and beginner-friendly
 They even offer badges and certificates for many of the modules, which is a nice motivator — and a good thing to add to your LinkedIn or resume.
 
 > My approach to learning was different, I learned it all by going through [ServiceNow official documentation](https://www.servicenow.com/docs/){:target="_blank"}. It was important for me to understand the core platform first, the Now Platform, now called ServiceNow AI Platform. Yes, as of May 2025, in a press release, and also at Knowledge 2025, ServiceNow has renamed Now Platform to ServiceNow AI Platform. My way of learning was to learn the [ServiceNow AI Platform](https://www.servicenow.com/docs/csh?topicname=now-platform-landing.html&version=latest){:target="_blank"} through its official documentaiton, top down & sequentially. Most would find this method monotonous, but I believe documentation is the only and single source of truth, for a product, the bible, and I found this method quite intertesting, all through!
+
 # 4. Learn core modules first
 When I first opened my ServiceNow instance, I was blown away by how many modules there were — ITSM, HRSD, CSM, SecOps, App Engine, and so on. It was like walking into a giant airport and not knowing which terminal to go to.
 
@@ -65,12 +66,13 @@ I focused first on the core modules — the ones that most companies use and mos
 
 Start with these three:
 
-* 🔧 Incident, Problem, and Change Management (ITSM)
+* 🔧 **Incident, Problem, and Change Management (ITSM)**..
 These are the heart of IT workflows in ServiceNow. Learn how tickets (aka “records”) flow through different states, how users interact with them, and how SLAs work.
-* 📄 Knowledge Management
+* 📄 **Knowledge Management**..
 This teaches you how companies store and share documentation inside ServiceNow — a surprisingly important skill when building any real-world solution.
-* 📋 Request Management & Catalog Items
+* 📋 **Request Management & Catalog Items**.
 Want to learn how to create a self-service portal where users can order things like laptops or access? This is where that magic happens.
+
 By starting with these, you’ll get used to key concepts like forms, lists, workflows, user roles (ACLs), approvals, and data structures. And you’ll start seeing the platform not just as a tool, but as a framework for how real businesses operate.
 
 Later, you can explore advanced or niche modules — but these basics are where 90% of new learners (and jobs!) begin.
