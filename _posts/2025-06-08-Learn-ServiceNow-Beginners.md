@@ -14,6 +14,8 @@ author: "Gursimran Singh Saini"
 show-avatar: true
 ---
 
+{% if site.share-buttons %} {% include social-share.html %} {% endif %}
+
 * TOC
 {:toc}
 
