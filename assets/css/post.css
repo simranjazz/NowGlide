@@ -30,10 +30,10 @@
 }
 
 /* Table of contents */
+
 #markdown-toc {
   background: #f9f9f9;
-  padding: 1em;
-  border-left: 3px solid #007ACC;
-  margin-bottom: 2em;
+  padding: 1em 2em;
+  border-left: 3px solid #80b6a1;
   font-size: 0.95em;
 }
