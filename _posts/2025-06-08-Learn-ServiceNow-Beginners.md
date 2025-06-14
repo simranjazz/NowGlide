@@ -12,10 +12,10 @@ css: "/assets/css/post.css"
 When I first started learning ServiceNow, I wasn’t sure where to begin. The platform is huge — ITSM, HRSD, CSM, scripting, Flow Designer, UI Builder... it can feel overwhelming.
 In this post, I’ll share a simple, practical way to start learning ServiceNow without getting lost. Whether you’re an admin, developer, or just curious — this guide will help you take your first steps confidently.
 
-{:toc}
-{::toc}
-
 # 1. What is ServiceNow?
+
+{:toc}
+
 When I first started learning ServiceNow, I thought it was just a ticketing tool for IT support. But very quickly, I realized it’s much more than that.
 
 ServiceNow is a powerful cloud platform that helps businesses manage and automate workflows across departments — IT, HR, customer service, security, and more. It’s like a central engine that keeps things running smoothly inside large organizations. Instead of juggling emails, spreadsheets, or manual processes, teams use ServiceNow to build structured, trackable, and often automated workflows — so that work gets done faster and more reliably. Whether you’re handling incidents, onboarding employees, approving hardware, or resolving customer issues — there’s a good chance ServiceNow can be used to design, automate, and monitor the process.
