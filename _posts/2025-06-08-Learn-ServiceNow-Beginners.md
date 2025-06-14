@@ -138,17 +138,16 @@ Example: current.short_description lets you read or modify that field on the fly
 These run in the user’s browser (forms, UI actions, etc.), and are used for things like:
   * Showing/hiding fields
   * Validating form inputs
-  * Auto-filling values in real-time
-
+  * Auto-filling values in real-time  
 
 * **Server-side scripts**
 These run on the ServiceNow server, and handle:
   * Database updates
   * Record-level logic
-  * Background jobs
+  * Background jobs  
 These can be:
   * Global scripts (used across older apps)
-  * Scoped scripts (used in newer apps or Studio-built apps)
+  * Scoped scripts (used in newer apps or Studio-built apps)  
 Examples:
   * Business Rule
   * Script Include
