@@ -195,3 +195,7 @@ _Examples:_
 
 The key to learning ServiceNow is to stay consistent and hands-on. Don’t be afraid to experiment — break your PDI, request a new one, try again. The platform is very deep, and the more you build, the more you learn.
 I’m still learning myself — if you have questions, feel free to email or connect with me on LinkedIn!
+
+*Have thoughts to share? Join the discussion below!*
+
+{% include giscus-comments.html %}
