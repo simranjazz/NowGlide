@@ -141,16 +141,14 @@ These run in the user’s browser (forms, UI actions, etc.), and are used for th
   * Auto-filling values in real-time  
 
 * **Server-side scripts**
-These run on the ServiceNow server, and handle:
+  These run on the ServiceNow server, and handle:
   * Database updates
   * Record-level logic
   * Background jobs  
-
-These can be:
+  These can be:
   * Global scripts (used across older apps)
   * Scoped scripts (used in newer apps or Studio-built apps)  
-
-Examples:
+  Examples:
   * Business Rule
   * Script Include
   * Flow Designer - Script Step
