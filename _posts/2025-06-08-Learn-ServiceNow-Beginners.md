@@ -7,14 +7,16 @@ thumbnail-img: "/assets/images/JourneyCoverImage.png"
 head-extra: head-custom.html
 readtime: true
 css: "/assets/css/post.css"
+toc: true
 ---
+
+* TOC
+{:toc}
 
 When I first started learning ServiceNow, I wasn’t sure where to begin. The platform is huge — ITSM, HRSD, CSM, scripting, Flow Designer, UI Builder... it can feel overwhelming.
 In this post, I’ll share a simple, practical way to start learning ServiceNow without getting lost. Whether you’re an admin, developer, or just curious — this guide will help you take your first steps confidently.
 
 # 1. What is ServiceNow?
-
-{% include toc.html html=content %}
 
 When I first started learning ServiceNow, I thought it was just a ticketing tool for IT support. But very quickly, I realized it’s much more than that.
 
