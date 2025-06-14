@@ -12,7 +12,8 @@
 }
 
 .intro-header .page-heading,
-.intro-header .post-heading {
+.intro-header .post-heading,
+.intro-header .post-heading .post-subheading {
   position: relative;
   z-index: 2; /* bring the text above the overlay */
   color: #fff !important;

@@ -1,7 +1,7 @@
 ---
 title: "How to Start Learning ServiceNow - A Practical Guide for Beginners"
 share-title: "How to Start Learning ServiceNow - A Practical Guide for Beginners"
-subtitle: "Test subtitle"
+subtitle: "Zero to Glide: Your Fast Track Into the Now Platform"
 date: 2025-06-08
 last-updated: 2025-06-14
 tags: [level-beginner, guides, getting-started]
@@ -13,8 +13,6 @@ css: "/assets/css/post.css"
 author: "Gursimran Singh Saini"
 show-avatar: true
 ---
-
-{% if site.share-buttons %} {% include social-share.html %} {% endif %}
 
 * TOC
 {:toc}
@@ -202,6 +200,8 @@ _Examples:_
 
 The key to learning ServiceNow is to stay consistent and hands-on. Don’t be afraid to experiment — break your PDI, request a new one, try again. The platform is very deep, and the more you build, the more you learn.
 I’m still learning myself — if you have questions, feel free to email or connect with me on LinkedIn!
+
+{% if site.share-buttons %} {% include social-share.html %} {% endif %}
 
 *Have thoughts to share? Join the discussion below!*
 
