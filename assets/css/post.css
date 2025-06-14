@@ -28,3 +28,12 @@
 .intro-header .post-heading .subheading {
   color: #ddd !important;
 }
+
+/* Table of contents */
+#markdown-toc {
+  background: #f9f9f9;
+  padding: 1em;
+  border-left: 3px solid #007ACC;
+  margin-bottom: 2em;
+  font-size: 0.95em;
+}
