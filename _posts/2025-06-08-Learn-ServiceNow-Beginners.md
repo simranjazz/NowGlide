@@ -7,8 +7,6 @@ thumbnail-img: "/assets/images/JourneyCoverImage.png"
 head-extra: head-custom.html
 readtime: true
 css: "/assets/css/post.css"
-{:toc}
-{::toc}
 ---
 
 When I first started learning ServiceNow, I wasn’t sure where to begin. The platform is huge — ITSM, HRSD, CSM, scripting, Flow Designer, UI Builder... it can feel overwhelming.
