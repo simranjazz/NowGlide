@@ -1,1 +1,19 @@
 <link rel="icon" type="image/x-icon" href="/favicon.ico">
+
+<!-- SEO & Social Meta Tags -->
+<meta name="description" content="{{ site.description }}">
+<meta name="keywords" content="{{ site.keywords }}">
+<meta name="author" content="{{ site.author }}">
+
+<!-- Open Graph -->
+<meta property="og:title" content="{{ site.title }}">
+<meta property="og:description" content="{{ site.description }}">
+<meta property="og:type" content="website">
+<meta property="og:url" content="{{ site.url }}">
+<meta property="og:image" content="{{ site.avatar | default: site.title-img }}">
+
+<!-- Twitter Card -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="{{ site.title }}">
+<meta name="twitter:description" content="{{ site.description }}">
+<meta name="twitter:image" content="{{ site.avatar | default: site.title-img }}">
