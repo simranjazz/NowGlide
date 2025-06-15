@@ -53,4 +53,4 @@ I break down complex topics into beginner-friendly insights — so you can **lea
 ## Let's Connect
 
 Got feedback, questions, or ideas?  
-Reach out via [email](mailto:simranjazz@gmail.com) or connect on [LinkedIn](https://www.linkedin.com/in/simranjazz/).
+Reach out via [email](mailto:simranjazz@gmail.com) or connect on [LinkedIn](https://www.linkedin.com/in/simranjazz/){:target="\_blank"}.
