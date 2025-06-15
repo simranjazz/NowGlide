@@ -156,8 +156,3 @@ pre {
   line-height: 1.5;
   margin: 1.5rem 0;
 }
-
-.post-image, .post-image a img {
-  width: 100% !important;
-  max-width: 100% !important;
-}
