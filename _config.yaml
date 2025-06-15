@@ -8,7 +8,6 @@ email: "simranjazz@gmail.com"
 author: "Gursimran Singh Saini"
 timezone: "Asia/Kolkata"
 
-# Build settings
 markdown: kramdown
 
 site-css: assets/css/style.css
@@ -38,7 +37,7 @@ keywords: "ServiceNow, Service-Now, NowGlide, GlideFast, GlideSoft, ServiceNow t
 
 navbar-links:
   About Me: "aboutme"
-  Resume: "<a href='https://simranjazz.com' target='_blank'>Resume</a>"
+  Resume: "https://simranjazz.com"
   Tags: "/tags"
 
 title-img: "/assets/images/NowGlideLogoInverse.png"
