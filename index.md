@@ -4,5 +4,7 @@ author_profile: true
 head-extra: head-custom.html
 ---
 
-Welcome to **NowGlide** — Learn ServiceNow tips, tricks, guides, and reference material.
-> ##### Glide Through the NowVerse!
+Welcome to **NowGlide** — demystifying ServiceNow, one smart tip at a time.  
+Discover practical guides, automation hacks, and low-code solutions for modern teams.
+
+> #### Glide through the NowVerse!

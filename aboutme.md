@@ -4,14 +4,53 @@ title: About me
 subtitle: ServiceNow | PSPO 1 certified | Program/Product management | Solution architect | Developer (Fundamentally)
 readtime: true
 head-extra: head-custom.html
+permalink: /aboutme/
 ---
 
-### Background
-My name is Gursimran. I have 11 years of professional experience in technical product management and development. Currently, working with EY GDS Global Managed Services on enterprise architecture, digital/delivery transformations and automations. Self-taught ServiceNow expert (Finance & supply chain, HRSD, ITSM).
+## 👋 Hi, I'm Gursimran — Digital Transformation Enthusiast & ServiceNow Explorer
 
-In the last decade, I have worked in the capacity of a product owner, program manager, solution architect, solution consultant and of course, a developer. I have worked with clients in multiple industries and horizontals: HR, travel and tourism, manufacturing, telecom, e-commerce, financial services and life insurance.
+With over 11 years of experience in **product management**, **enterprise architecture**, and **solution delivery**, I’ve worn many hats — developer, architect, product owner, and program manager.
 
-### Why ServiceNow?
-With little over 11 years of professional experience, I decided to learn ServiceNow in (the beginning of) 2025. Having built a solid foundation in Oracle B2C Service (formerly known as Oracle Service Cloud & RightNow CX) for over 9 years, I managed to easily transfer the similar skills and related concepts, over to ServiceNow. This helped me upskill on ServiceNow rapidly!
+Currently at **EY GDS Global Managed Services**, I help clients transform business operations using modern platforms, automations, and scalable digital solutions.
 
-Back in 2023 and 2024, I worked on ServiceNow (as a user) and witnessed the massive potential of the platform. Originally an ITSM product, the entire platform is now killing it in HRSD, ITOM, ITAM, CSM and many more horizontals! Oracle B2C Service is similar to ServiceNow CSM product. But I realized that ServiceNow offers much more potential, like, the CMDB, flow designer (much powerful than business rules in OSvC), UI & data policies, workspaces, UI builder, ATF, performance analytics, and so much more!
+---
+
+## My Journey
+
+I started in development, grew into product ownership, and eventually led complex programs across industries — **HR, telecom, e-commerce, insurance, and finance**.  
+For nearly a decade, I specialized in **Oracle B2C Service (RightNow CX)** — designing scalable solutions that empowered both end-users and internal ops teams.
+
+---
+
+## Why ServiceNow?
+
+In early 2025, I made the leap to **ServiceNow**. With a strong foundation in Oracle CX, the transition was smooth — and exciting.
+
+I was quickly drawn to the **platform's breadth**:
+- CMDB  
+- Flow Designer  
+- ATF  
+- Workspaces & UI Builder  
+- Data and UI Policies  
+- Performance Analytics  
+
+ServiceNow isn’t just an ITSM tool anymore — it’s redefining enterprise workflows across **HR, finance, supply chain, and customer service**.
+
+---
+
+## What NowGlide is About
+
+This blog is a place to:
+- **Learn ServiceNow practically**
+- **Explore real-world use cases**
+- **Understand low-code development**
+- **Stay updated on tips, tricks & industry trends**
+
+I break down complex topics into beginner-friendly insights — so you can **learn faster and build smarter**.
+
+---
+
+## Let's Connect
+
+Got feedback, questions, or ideas?  
+Reach out via [email](mailto:simranjazz@gmail.com) or connect on [LinkedIn](https://www.linkedin.com/in/simranjazz/).
