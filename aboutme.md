@@ -1,7 +1,7 @@
 ---
 layout: page
 title: About me
-subtitle: ServiceNow | PSPO 1 certified | Program/Product management | Solution architect | Developer (Fundamentally)
+subtitle: Product-Minded Builder | Certified Agilist | ServiceNow Strategist.
 readtime: true
 head-extra: head-custom.html
 permalink: /aboutme/
