@@ -13,7 +13,7 @@ markdown: kramdown
 site-css: assets/css/style.css
 
 # avatar: "/assets/images/gs.png"
-avatar: "/favicon.png"
+avatar: "/faviconDarkBg.png"
 
 social-network-links:
   email: "simranjazz@gmail.com"
