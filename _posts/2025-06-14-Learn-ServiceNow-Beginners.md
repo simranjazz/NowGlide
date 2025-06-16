@@ -3,8 +3,8 @@ title: "How to Start Learning ServiceNow - A Practical Guide for Beginners"
 share-title: "How to Start Learning ServiceNow - A Practical Guide for Beginners"
 subtitle: "Zero to Glide: Your Fast Track Into the Now Platform"
 date: 2025-06-14
-last-updated: 2025-06-14
-tags: [level-beginner, guides, getting-started]
+last-updated: 2025-06-16
+tags: [beginner, guides, getting-started]
 cover-img: ["/assets/images/JourneyCoverImage.png"]
 thumbnail-img: "/assets/images/JourneyCoverImage.png"
 head-extra: head-custom.html
