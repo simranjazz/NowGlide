@@ -12,7 +12,7 @@ readtime: true
 css: "/assets/css/post.css"
 author: "Gursimran Singh Saini"
 show-avatar: true
-permalink: /Learn-Servicenow-Beginners/
+permalink: /Learn-ServiceNow-Beginners/
 published: true
 ---
 
