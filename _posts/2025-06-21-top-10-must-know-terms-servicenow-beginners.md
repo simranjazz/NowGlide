@@ -14,7 +14,7 @@ css: "/assets/css/post.css"
 author: "Gursimran Singh Saini"
 show-avatar: true
 permalink: /:title/
-published: false
+published: true
 ---
 
 * TOC
@@ -28,7 +28,7 @@ When you're new to ServiceNow, it's easy to get lost in a blur of modules, acron
 These aren't just buzzwords — they're the building blocks of the Now Platform. So whether you're aiming to become a ServiceNow Developer, Admin, or Architect, this glossary-style guide will give you clarity and confidence.
 
 # 1. Now Platform
-Think of this as the engine behind every ServiceNow app — from ITSM and HRSD to CSM and beyond. It’s the low-code foundation that enables you to automate workflows, build portals, and drive enterprise operations.
+Think of this as the core technology engine behind every ServiceNow product/app/plugin — from ITSM and HRSD to CSM and beyond. It’s a Platform as a Service (PaaS) foundation that enables you to automate workflows, build portals, and drive enterprise operations.
 
 **Why you should care:** Everything you touch in ServiceNow runs on the Now Platform.
 
@@ -36,6 +36,10 @@ Think of this as the engine behind every ServiceNow app — from ITSM and HRSD t
 A table is where your data lives. Each app — like Incidents or Employees — is backed by a table, and they can be extended, related, or customized.
 
 **Pro tip:** The task table is the parent for many process-driven records like Incident, Change, and Request.
+
+> You might’ve noticed I referred to things like Incidents and Employees as apps. That’s intentional — and honestly, it’s one of the most ingenious design patterns I’ve seen in ServiceNow.
+Everything in ServiceNow is highly modular. You have Products (like ITSM, HRSD, CSM), which contain Applications (like Incident Management, Change Management), which in turn rely on Plugins (like Document Intelligence, Integration Hub). And then, at the heart of it all, are Tables — where the data lives.
+Each application sits inside its own scope — like its own sandbox or prison cell — isolated by default, and not allowed to interact with others unless explicitly permitted. This scoped architecture makes development safer, cleaner, and more maintainable. _More on this later!_
 
 # 3. Record
 Every entry in a table is a record. Think: one Incident, one User, one HR Case.
@@ -60,7 +64,7 @@ Controls what a user can see or do. For example, only users with admin or itil r
 # 7. Portal
 Portals are the user-friendly web interfaces built on Service Portal or Next Experience (UI Builder). For example, the Employee Center or Customer Service Portal.
 
-**Bonus:** They're fully customizable — add widgets, logic, and even branding.
+**Bonus:** They're fully customizable — add widgets, logic, and even branding. You can view the list of available (installed) portals in your instance by navigating to sp_portal.list via the Filter Navigator.
 
 # 8. Scoped Application
 A modular “package” of functionality with its own namespace. Scoped apps help you isolate logic, tables, and scripts cleanly.
@@ -71,7 +75,6 @@ A modular “package” of functionality with its own namespace. Scoped apps hel
 The two most common UI layouts.
 * List = table view
 * Form = record view
-**Navigation tip:** Click any record from a list to open its form.
 
 # 10. Update Set
 A container that tracks configuration changes for moving between environments (like Dev → Test → Prod).
@@ -88,8 +91,8 @@ There are many terms in ServiceNow that didn’t make the top 10 list — but st
 - **Access Control (ACL)** – Who sees or changes what — everywhere.
 - **Business Rule** – Server-side logic that drives automation.
 - **Script Include** – Reusable server-side scripts for maintainable code.
-- **UI Action** – Buttons or actions that help users interact better.
-- **Service Catalog** – One-stop shop for requesting IT and business services.
+- **UI Action** – Buttons or actions (on Forms and Lists) that help users interact better.
+- **Service Catalog** – One-stop shop for requesting IT and business services and products.
 
 These bonus terms often reveal their true importance as you dive deeper into the platform.
 
