@@ -13,6 +13,7 @@ css: "/assets/css/post.css"
 author: "Gursimran Singh Saini"
 show-avatar: true
 permalink: /learn-servicenow-beginners/
+canonical_url: "https://nowglide.com/learn-servicenow-beginners/"
 published: true
 ---
 
