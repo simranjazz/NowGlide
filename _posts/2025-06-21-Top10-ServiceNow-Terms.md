@@ -5,15 +5,15 @@ subtitle: "The vocabulary every beginner needs to speak fluently on the Now Plat
 date: 2025-06-21
 last-updated: 2025-06-21
 tags: [beginner, glossary]
-cover-img: ["/assets/images/JourneyCoverImage.png"]
-thumbnail-img: "/assets/images/JourneyCoverImage.png"
+cover-img: ["/assets/images/GlossaryCoverImage.png"]
+thumbnail-img: "/assets/images/GlossaryCoverImage.png"
 head-extra: head-custom.html
 readtime: true
 css: "/assets/css/post.css"
 author: "Gursimran Singh Saini"
 show-avatar: true
 permalink: /:title/
-published: false
+published: true
 ---
 
 * TOC
