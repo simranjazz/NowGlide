@@ -13,7 +13,6 @@ css: "/assets/css/post.css"
 author: "Gursimran Singh Saini"
 show-avatar: true
 permalink: /:title/
-published: true
 ---
 
 * TOC

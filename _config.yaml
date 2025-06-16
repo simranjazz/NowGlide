@@ -9,6 +9,7 @@ author: "Gursimran Singh Saini"
 timezone: "Asia/Kolkata"
 
 markdown: kramdown
+future: true
 
 site-css: assets/css/style.css
 
