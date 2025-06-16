@@ -14,7 +14,7 @@ css: "/assets/css/post.css"
 author: "Gursimran Singh Saini"
 show-avatar: true
 permalink: /:title/
-published: true
+published: false
 ---
 
 * TOC
@@ -99,8 +99,8 @@ These bonus terms often reveal their true importance as you dive deeper into the
 # Final Thoughts
 When I first pivoted from Oracle B2C Service to ServiceNow, these terms became my anchor. If you're just starting in 2025, trust me — learning the vocabulary early will make everything else feel a lot more natural.
 
-> Written by: Gursimran Singh Saini
-PSPO-1 | Program Manager | Solution Architect | Self-taught ServiceNow builder
+> Written by: Gursimran Singh Saini  
+PSPO-1 | Program Manager | Solution Architect | Self-taught ServiceNow builder  
 Follow along at [NowGlide.com](https://nowglide.com){:target="\_blank"}
 
 ---
