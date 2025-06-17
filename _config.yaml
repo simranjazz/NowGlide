@@ -47,3 +47,7 @@ feed_show_tags: true
 
 plugins:
   - jekyll-sitemap
+
+post_footer_author: >
+  **Written by:** Gursimran Singh Saini – Self-taught ServiceNow explorer,
+  Assistant Director @ EY, passionate about modern automation, learning, and sharing.
