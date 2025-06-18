@@ -5,6 +5,7 @@ subtitle: Product-Minded Builder | Certified Agilist | ServiceNow Strategist.
 readtime: true
 head-extra: head-custom.html
 permalink: /aboutme/
+canonical_url: https://nowglide.com/aboutme/
 ---
 
 ## 👋 Hi, I'm Gursimran — Digital Transformation Enthusiast & ServiceNow Explorer

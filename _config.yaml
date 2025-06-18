@@ -37,9 +37,9 @@ title-on-all-pages: true
 keywords: "ServiceNow, Service-Now, NowGlide, GlideFast, GlideSoft, ServiceNow tips, ServiceNow tricks, ServiceNow blog, Learn ServiceNow, ServiceNow developer, ServiceNow admin, ServiceNow automation, ServiceNow HRSD, ServiceNow ITSM, ServiceNow CSM, ServiceNow scripting, GlideRecord examples, ServiceNow flow designer, ServiceNow integration, ServiceNow admin guide, ServiceNow developer guide, ServiceNow studio, how to use ServiceNow, ServiceNow certification, ServiceNow beginners guide, ServiceNow low-code, ServiceNow training free, Now Platform, Flow Designer, What is ServiceNow, ServiceNow REST API, ServiceNow CMDB explained, ServiceNow custom apps, ServiceNow implementation guide, ServiceNow interview questions, ServiceNow best practices"
 
 navbar-links:
-  About Me: "aboutme"
+  About Me: "/aboutme/"
   Resume: "https://simranjazz.com"
-  Tags: "/tags"
+  Tags: "/tags/"
 
 title-img: "/assets/images/NowGlideLogoInverse.png"
 
