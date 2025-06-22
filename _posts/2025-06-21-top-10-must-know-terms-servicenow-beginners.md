@@ -15,7 +15,6 @@ author: "Gursimran Singh Saini"
 show-avatar: true
 permalink: /:title/
 published: true
-after-content: post-footer.html
 ---
 
 * TOC
@@ -100,7 +99,7 @@ These bonus terms often reveal their true importance as you dive deeper into the
 # Final Thoughts
 When I first pivoted from Oracle B2C Service to ServiceNow, these terms became my anchor. If you're just starting in 2025, trust me — learning the vocabulary early will make everything else feel a lot more natural.
 
-<!-- {{ site.post_footer_author }}
+{{ site.post_footer_author }}
 
 ---
 
@@ -108,4 +107,4 @@ When I first pivoted from Oracle B2C Service to ServiceNow, these terms became m
 
 *Have thoughts to share? Join the discussion below!*
 
-{% include giscus-comments.html %} -->
+{% include giscus-comments.html %}
