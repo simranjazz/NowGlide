@@ -15,7 +15,7 @@ author: "Gursimran Singh Saini"
 show-avatar: true
 permalink: /:title/
 published: true
-after-content: post-footer
+after-content: post-footer.html
 ---
 
 * TOC
