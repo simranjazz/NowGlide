@@ -11,8 +11,6 @@ timezone: "Asia/Kolkata"
 markdown: kramdown
 future: true
 
-google_analytics: G-1W19PDD2K2
-
 site-css: assets/css/style.css
 
 avatar: "/assets/images/gsFormal.JPG"
