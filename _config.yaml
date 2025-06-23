@@ -11,7 +11,7 @@ timezone: "Asia/Kolkata"
 markdown: kramdown
 future: true
 
-# site-css: assets/css/style.css
+site-css: assets/css/style.css
 
 avatar: "/assets/images/gsFormal.JPG"
 
