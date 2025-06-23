@@ -49,6 +49,6 @@ plugins:
   - jekyll-sitemap
 
 post_footer_author: >
-  **Written by:** Gursimran Singh Saini - Assistant Director @ EY.
+  > **Written by:** Gursimran Singh Saini - Assistant Director @ EY.
   Exploring the ServiceNow platform and modern enterprise automation.
   I write to learn, and share to remember.
