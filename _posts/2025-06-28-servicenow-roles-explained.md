@@ -1,8 +1,8 @@
 ---
-title: "ServiceNow Roles Explained – Who Does What, and Why It Matters - NowGlide"
-share-title: "ServiceNow Roles Explained – Who Does What, and Why It Matters - NowGlide"
+title: "ServiceNow Roles Explained - Who Does What, and Why It Matters - NowGlide"
+share-title: "ServiceNow Roles Explained - Who Does What, and Why It Matters - NowGlide"
 subtitle: "The personas every beginner should understand to navigate the Now Platform with confidence"
-description: Understand the core ServiceNow roles — from administrators to developers to implementers — and why they matter for every beginner learning the Now Platform.
+description: Understand the core ServiceNow roles — from administrators to developers to implementers - and why they matter for every beginner learning the Now Platform.
 date: 2025-06-28
 last-updated: 2025-06-28
 tags: [beginner, roles, personas, platform]
