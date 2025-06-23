@@ -14,14 +14,14 @@ css: "/assets/css/post.css"
 author: "Gursimran Singh Saini"
 show-avatar: true
 permalink: /servicenow-roles-explained/
-published: false
+published: true
 ---
 
 
 * TOC
 {:toc}
 
-Content here
+    Coming soon!
 
 {{ site.post_footer_author }}
 
