@@ -1,6 +1,6 @@
 ---
-title: "How to Start Learning ServiceNow - A Practical Guide for Beginners"
-share-title: "How to Start Learning ServiceNow - A Practical Guide for Beginners"
+title: "How to Start Learning ServiceNow - A Practical Guide for Beginners - NowGlide"
+share-title: "How to Start Learning ServiceNow - A Practical Guide for Beginners - NowGlide"
 subtitle: "Zero to Glide: Your Fast Track Into the Now Platform"
 date: 2025-06-14
 last-updated: 2025-06-16

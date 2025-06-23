@@ -1,9 +1,9 @@
 ---
-title: "Top 10 Must-Know Terms for ServiceNow Beginners (2025 Edition)"
-share-title: "Top 10 Must-Know Terms for ServiceNow Beginners (2025 Edition)"
+title: "Top 10 Must-Know Terms for ServiceNow Beginners (2025 Edition) - NowGlide"
+share-title: "Top 10 Must-Know Terms for ServiceNow Beginners (2025 Edition) - NowGlide"
 subtitle: "The vocabulary every beginner needs to speak fluently on the Now Platform"
 description: Learn the 10 most essential ServiceNow terms every beginner should know in 2025 — from GlideRecord to Flow Designer, get fluent in the Now Platform's core concepts.
-date: 2025-06-22
+date: 2025-06-21
 last-updated: 2025-06-22
 tags: [beginner, glossary]
 cover-img: ["/assets/images/GlossaryCoverImage.png"]
