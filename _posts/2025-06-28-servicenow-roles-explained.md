@@ -214,7 +214,7 @@ Designs scalable, extensible architectures.
 
 ---
 
-### Integration Specialist
+* ### Integration Specialist
 Integration Specialists are the connectors of the ServiceNow universe. They make sure data flows in and out of the platform securely, reliably, and efficiently. From REST APIs to MID Servers, they orchestrate how ServiceNow talks to the wider tech ecosystem.
 
 They often partner with developers and architects to enable automation between ServiceNow and tools like SAP, Workday, Azure, or third-party apps.
