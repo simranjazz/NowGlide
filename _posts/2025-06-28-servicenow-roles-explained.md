@@ -196,7 +196,7 @@ _Ideal profile? Everyone. From employees and managers to vendors and customers._
 
 ## Additional (Honorable Mention) Roles
 
-### * Solution Architect
+* ### Solution Architect
 Solution Architects are the strategic engineers of the Now Platform. They are responsible for designing scalable, future-proof, and maintainable solutions that align to both business goals and platform best practices.
 
 They look across modules, teams, and integrations to ensure architectural consistency and avoid unnecessary complexity. While they may not write every script themselves, they often set design patterns and act as the final gate on platform-level decisions.
