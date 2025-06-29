@@ -28,6 +28,8 @@ published: true
 - **CSA**: Certified System Administrator
 - **CAD**: Certified Application Developer
 - **CIS**: Certified Implementation Specialist
+- **CTA**: Certified Technical Architect
+- **CMA**: Certified Master Architect
 - **ACL**: Access Control List
 - **CMDB**: Configuration Management Database
 - **CI**: Configuration Item
@@ -67,7 +69,7 @@ This post breaks down the most common roles in the ServiceNow universe and how e
 | Product Owner / Platform Owner | Strategy & roadmap | Backlog, priorities, stakeholder alignment | ★★☆ | Agile Boards, Dashboards, Portfolio | CSA (recommended), CIS (optional), SAFe PO/PM, CSPO, or PSPO (recommended) |
 | Business Analyst | Requirements & process clarity | User stories, pain point analysis | ★☆☆ | Stories, Forms, Reports | CSA (recommended), CIS (optional), SAFe PO/PM, CSPO, or PSPO (recommended) |
 | End User | Task execution & approvals | Submitting forms, approvals, VA/chat usage | ★☆☆ | Service Portal, Mobile, Virtual Agent | Not applicable |
-| Solution Architect | Platform architecture & scalability | Design scalable, long-term structures | ★★★ | App Engine, Data Model, Integration Design | CSA (mandatory), CAD (recommended), Architect Path (optional) |
+| Solution Architect | Platform architecture & scalability | Design scalable, long-term structures | ★★★ | App Engine, Data Model, Integration Design | CSA (mandatory), CAD (recommended), CIS (optional), CTA (aspirational, invite-only), CMA (elite, invite-only) |
 | Integration Specialist | System-to-system connectivity | API integration, MID servers | ★★★ | REST APIs, IntegrationHub, MID Server | CSA (mandatory), IntegrationHub (recommended), Micro-Certs (optional) |
 | Data Manager / CMDB Owner | CMDB & data governance | CI data, data hygiene, service mapping | ★★☆ | CMDB, Discovery, Service Mapping | CSA (recommended), CIS – Discovery/Mapping (recommended) |
 | Demand Manager | Intake & prioritization | Backlog grooming, impact analysis | ★☆☆ | Demand Mgmt, Idea Portal, Portfolio Mgmt | CSA (optional), SPM Micro-Certs (optional) |
@@ -194,6 +196,26 @@ _Ideal profile? Everyone. From employees and managers to vendors and customers._
 
 ---
 
+## 7. Agents (Fulfiller Persona)
+**Executes workflows, resolves tickets, and interacts with users.**
+
+Agents are the backbone of ServiceNow’s operational engine. Whether they’re resolving incidents, fulfilling requests, or managing HR cases, agents work out of purpose-built workspaces designed for productivity and speed.
+
+They’re not platform builders — but their experience is essential to how the platform feels in the real world. Smart flows, well-designed forms, and intuitive layouts make or break their day.
+
+They:
+* Use Agent Workspace to manage tickets, cases, tasks
+* Follow SLAs, respond to approvals, and update records
+* Communicate directly with requesters or stakeholders
+* Identify inefficiencies and provide feedback to improve workflows
+* Agents may specialize in IT, HR, field services, or customer service. Their feedback often shapes enhancements and future releases.
+
+_Ideal for professionals who thrive on resolution, service delivery, and user engagement._
+
+**Certifications:** Not mandatory, but exposure to Agent Workspace training and module-specific knowledge (e.g., ITSM, HRSD) is valuable.
+
+---
+
 ## Additional (Honorable Mention) Roles
 
 ### Solution Architect
@@ -209,8 +231,8 @@ Typical responsibilities include:
 
 _Ideal for experienced platform thinkers who balance enterprise vision with technical depth._
 
-**Recommended Certifications:** CSA (mandatory), CAD (recommended), Technical Architect Path (optional)
-Designs scalable, extensible architectures.
+**Recommended Certifications:** CSA (mandatory), CAD (recommended), CIS (optional), CTA (aspirational, invite-only), CMA (elite, invite-only)
+> Note: CTA and CMA are elite-level certifications by ServiceNow and often come much later in the journey.
 
 ---
 
