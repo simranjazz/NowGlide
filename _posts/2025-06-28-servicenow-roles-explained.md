@@ -141,19 +141,19 @@ Recommended Certifications: CSA (mandatory), CIS (recommended)
 ## 4. Product Owner / Platform Owner
 **Defines the roadmap and prioritizes platform evolution.**
 
-This is the role that transforms theory into reality. Implementers understand what’s possible on the platform and translate business needs into working configurations. They are comfortable in workshops, blueprints, and Flow Designer — and often work with multiple clients or internal business units.
+This role is the strategic glue between business outcomes and the ServiceNow platform. Product Owners don’t need to configure the platform themselves — but they must deeply understand what’s possible, what’s valuable, and what’s next.
 
-Typical responsibilities include:
-* Gathering requirements and running discovery sessions
-* Implementing ITSM, HRSD, or other modules with minimal customization
-* Configuring Service Catalogs, workflows, and forms
-* Testing configurations and managing go-lives
+They:
+* Own and prioritize the product backlog
+* Align teams to enterprise goals
+* Collect feedback from users and translate them into user stories
+* Lead Agile ceremonies like sprint planning and demos
 
-They need both platform understanding and soft skills to manage clients and projects with confidence. They often act as the face of the platform to the business.
+They’re platform advocates, quality controllers, and roadmap visionaries. Whether you’re managing an internal Center of Excellence or overseeing a partner implementation — this is a role of leadership, not just logistics.
 
-_Ideal for those who like working across people, process, and technology._
+_Ideal for strategic thinkers with product mindset and stakeholder fluency._
 
-Recommended Certifications: CSA (mandatory), CIS (recommended)
+**Recommended Certifications:** CSA (recommended), CIS (optional), SAFe PO/PM, CSPO, or PSPO (recommended)
 
 ---
 
