@@ -51,7 +51,7 @@ This post breaks down the most common roles in the ServiceNow universe and how e
 
 ---
 
-## 📊 TL;DR – ServiceNow Roles & Certifications Matrix
+## TL;DR – ServiceNow Roles & Certifications Matrix
 > Legend:
 * CSA: Certified System Administrator
 * CAD: Certified Application Developer
@@ -196,7 +196,7 @@ _Ideal profile? Everyone. From employees and managers to vendors and customers._
 
 ## Additional (Honorable Mention) Roles
 
-### • Solution Architect
+### * Solution Architect
 Solution Architects are the strategic engineers of the Now Platform. They are responsible for designing scalable, future-proof, and maintainable solutions that align to both business goals and platform best practices.
 
 They look across modules, teams, and integrations to ensure architectural consistency and avoid unnecessary complexity. While they may not write every script themselves, they often set design patterns and act as the final gate on platform-level decisions.
@@ -214,7 +214,7 @@ Designs scalable, extensible architectures.
 
 ---
 
-### • Integration Specialist
+### Integration Specialist
 Integration Specialists are the connectors of the ServiceNow universe. They make sure data flows in and out of the platform securely, reliably, and efficiently. From REST APIs to MID Servers, they orchestrate how ServiceNow talks to the wider tech ecosystem.
 
 They often partner with developers and architects to enable automation between ServiceNow and tools like SAP, Workday, Azure, or third-party apps.
@@ -231,7 +231,7 @@ _Ideal for those who love bridging systems and thinking in flows and payloads._
 
 ---
 
-### • Data Manager / CMDB Owner
+### Data Manager / CMDB Owner
 CMDB Owners are the guardians of configuration data — ensuring that services, infrastructure, and dependencies are accurately represented in the platform.
 
 They often work behind the scenes but play a critical role in enabling ITSM, Discovery, Service Mapping, and reporting. Clean, trustworthy data is their north star.
@@ -248,7 +248,7 @@ _Ideal for those who thrive in structured data and process stewardship._
 
 ---
 
-### • Demand Manager
+### Demand Manager
 Demand Managers help keep the chaos at bay. They capture, evaluate, and prioritize incoming work — ensuring the platform team focuses on what delivers real value.
 
 They operate at the intersection of intake, business strategy, and agile planning. Their insights directly shape roadmap decisions and sprint priorities.
@@ -265,7 +265,7 @@ _Ideal for those who love making sense of ambiguity and aligning execution with 
 
 ---
 
-### • Executive Sponsor
+### Executive Sponsor
 Executive Sponsors are the visionary advocates who ensure ServiceNow isn’t just another tool — but a long-term strategic investment. They provide funding, remove roadblocks, and help the platform gain visibility and legitimacy across the enterprise.
 
 While they may not log into the platform daily, their understanding and support often determine whether a platform initiative scales or stalls.
