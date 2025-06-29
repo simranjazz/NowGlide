@@ -295,7 +295,7 @@ The roles on this list aren't silos — they're stepping stones. Many people sta
 
 Personally, I'm still figuring out where I fit. But the more I learn, the more I realize: your “fit” can change over time. And that’s not a weakness — it’s a signal of growth.
 
-So start somewhere. Stay curious. Learn out loud. And let your role find you. you're reading NowGlide, you're probably:
+So start somewhere. Stay curious. Learn out loud. And let your role find you. You're reading NowGlide, you're probably:
 * A curious beginner
 * A career-switcher
 * Or a hands-on automator
