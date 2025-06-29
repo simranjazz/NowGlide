@@ -196,7 +196,7 @@ _Ideal profile? Everyone. From employees and managers to vendors and customers._
 
 ## Additional (Honorable Mention) Roles
 
-* ### Solution Architect
+### Solution Architect
 Solution Architects are the strategic engineers of the Now Platform. They are responsible for designing scalable, future-proof, and maintainable solutions that align to both business goals and platform best practices.
 
 They look across modules, teams, and integrations to ensure architectural consistency and avoid unnecessary complexity. While they may not write every script themselves, they often set design patterns and act as the final gate on platform-level decisions.
@@ -214,7 +214,7 @@ Designs scalable, extensible architectures.
 
 ---
 
-* ### Integration Specialist
+### Integration Specialist
 Integration Specialists are the connectors of the ServiceNow universe. They make sure data flows in and out of the platform securely, reliably, and efficiently. From REST APIs to MID Servers, they orchestrate how ServiceNow talks to the wider tech ecosystem.
 
 They often partner with developers and architects to enable automation between ServiceNow and tools like SAP, Workday, Azure, or third-party apps.

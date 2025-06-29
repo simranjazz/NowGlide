@@ -23,7 +23,7 @@ published: true
 When I first started learning ServiceNow, I wasn’t sure where to begin. The platform is huge — ITSM, HRSD, CSM, scripting, Flow Designer, UI Builder... it can feel overwhelming.
 In this post, I’ll share a simple, practical way to start learning ServiceNow without getting lost. Whether you’re an admin, developer, or just curious — this guide will help you take your first steps confidently.
 
-# 1. What is ServiceNow?
+## 1. What is ServiceNow?
 
 When I first started learning ServiceNow, I thought it was just a ticketing tool for IT support. But very quickly, I realized it’s much more than that.
 
@@ -34,7 +34,7 @@ If Excel organizes numbers, and Gmail organizes messages, ServiceNow organizes w
 
 Have a look at the official article on, [What is ServiceNow (Official)?](https://www.servicenow.com/what-is-servicenow.html#what-does-servicenow-do){:target="\_blank"}
 
-# 2. Set Up Your Free Practice Instance (PDI)
+## 2. Set Up Your Free Practice Instance (PDI)
 
 Before you can start building anything on ServiceNow, you’ll need a place to practice — and the best part is: ServiceNow gives you one for free, well, one per account. It’s called a Personal Developer Instance (PDI).
 
@@ -57,7 +57,7 @@ Here’s how I got mine in under 10 minutes:
 
 PDI instances expire after 10 days of inactivity. Do login every few days!
 
-# 3. ServiceNow official learning platform
+## 3. ServiceNow official learning platform
 
 Once your developer instance is ready, the next big question is: "Where do I actually start learning?"
 The answer is easy — ServiceNow’s official learning portal.
@@ -74,7 +74,7 @@ They even offer badges and certificates for many of the modules, which is a nice
 
 > My approach to learning was different, I learned it all by going through [ServiceNow official documentation](https://www.servicenow.com/docs/){:target="\_blank"}. It was important for me to understand the core platform first, the Now Platform, now called ServiceNow AI Platform. In a May 2025 press release and at Knowledge 2025, ServiceNow announced that the Now Platform has been renamed to the ServiceNow AI Platform. My way of learning was to learn the [ServiceNow AI Platform](https://www.servicenow.com/docs/csh?topicname=now-platform-landing.html&version=latest){:target="\_blank"} through its official documentaiton, top down & sequentially. Most would find this method monotonous, but I believe documentation is the only and single source of truth, for a product, the bible, and I found this method quite intertesting, throughout!
 
-# 4. Focus on Core Modules First
+## 4. Focus on Core Modules First
 
 When I first opened my ServiceNow instance, I was blown away by how many modules there were — ITSM, HRSD, CSM, SecOps, App Engine, and so on. It was like walking into a giant airport and not knowing which terminal to go to.
 
@@ -96,7 +96,7 @@ By starting with these, you’ll get used to key concepts like forms, lists, wor
 
 Later, you can explore advanced or niche modules — but these basics are where 90% of new learners (and jobs!) begin.
 
-# 5. Learn to customize - without code first!
+## 5. Learn to customize - without code first!
 
 One of the biggest myths I believed early on was: “To do anything useful in ServiceNow, I need to know JavaScript.”
 But thankfully, that’s not true — at least not in the beginning.
@@ -114,7 +114,7 @@ I personally started by tweaking forms, hiding fields, setting default values, a
 
 So before diving into code, get comfortable with what you can do without it. You’ll understand the platform better, and when you eventually write scripts, they’ll actually make sense.
 
-# 6. Ease Into Scripting (When You’re Ready)
+## 6. Ease Into Scripting (When You’re Ready)
 
 Once you're comfortable customizing without code, you’ll eventually hit a wall where visual tools aren’t enough. That’s when scripting enters the picture — and honestly, this is where ServiceNow gets really fun.
 
@@ -140,7 +140,7 @@ You don’t need to master them all at once. My tip? Pick one scenario that need
 
 Every small script you write builds confidence. And soon, “code fear” turns into “code curiosity.”
 
-# 7. Join the community
+## 7. Join the community
 
 When you're learning something as broad as ServiceNow, Google and YouTube can only take you so far. The real magic happens when you plug into the ServiceNow community.
 
@@ -162,25 +162,25 @@ Here’s where I started (and still hang out):
 
 I started by just reading threads, then slowly started answering newbie questions. Trust me — the moment you help someone else, your confidence multiplies.
 
-# _Quick start ServiceNow Scripting_
+## _Quick start ServiceNow Scripting_
 
 Before diving deeper, here’s a mini map of the scripting landscape inside ServiceNow:
 
-## Glide API
+### Glide API
 This is ServiceNow’s custom JavaScript API — it lets you interact with the database, users, records, etc.
 Think of GlideRecord, GlideDateTime, gs.log(), etc. as the tools you'll use to do things in scripts.
 
-## _current_ object
+### _current_ object
 This refers to the current record in Business Rules, Script Actions, or Flow Script steps.
 Example: current.short_description lets you read or modify that field on the fly.
 
-## Client-side scripts
+### Client-side scripts
 These run in the user’s browser (forms, UI actions, etc.), and are used for things like:
  * Showing/hiding fields
  * Validating form inputs
  * Auto-filling values in real-time
 
-## Server-side scripts
+### Server-side scripts
 These run on the ServiceNow server, and handle:
   * Database updates
   * Record-level logic
@@ -195,7 +195,7 @@ _Examples:_
   * Scheduled Job
   * Fix Script
 
-## Synchronous vs Asynchronous
+### Synchronous vs Asynchronous
  * Synchronous scripts block the user until finished (e.g., before insert/update rules)
  * Asynchronous scripts run in the background (e.g., async Business Rule, Scheduled Job)
 
