@@ -1,16 +1,16 @@
 ---
 layout: page
 title: About me
-subtitle: Product-Minded Builder | Certified Agilist | ServiceNow Strategist.
+subtitle: Product Minded Builder | Certified Agilist | ServiceNow Strategist.
 readtime: true
 head-extra: head-custom.html
 permalink: /aboutme/
 canonical_url: https://nowglide.com/aboutme/
 ---
 
-## 👋 Hi, I'm Gursimran — Digital Transformation Enthusiast & ServiceNow Explorer
+## Hi, I'm Gursimran, Digital Transformation Enthusiast & ServiceNow Explorer
 
-With over 11 years of experience in **product management**, **enterprise architecture**, and **solution delivery**, I’ve worn many hats — developer, architect, product owner, and program manager.
+With over 11 years of experience in **product management**, **enterprise architecture**, and **solution delivery**, I’ve worn many hats, developer, architect, product owner, and program manager.
 
 Currently at **EY GDS Global Managed Services**, I help clients transform business operations using modern platforms, automations, and scalable digital solutions.
 
@@ -18,14 +18,14 @@ Currently at **EY GDS Global Managed Services**, I help clients transform busine
 
 ## My Journey
 
-I started in development, grew into product ownership, and eventually led complex programs across industries — **HR, telecom, e-commerce, insurance, and finance**.  
-For nearly a decade, I specialized in **Oracle B2C Service (RightNow CX)** — designing scalable solutions that empowered both end-users and internal ops teams.
+I started in development, grew into product ownership, and eventually led complex programs across industries: **HR, telecom, e commerce, insurance, and finance**.  
+For nearly a decade, I specialized in **Oracle B2C Service (RightNow CX)**, designing scalable solutions that empowered both end users and internal ops teams.
 
 ---
 
 ## Why ServiceNow?
 
-In early 2025, I made the leap to **ServiceNow**. With a strong foundation in Oracle CX, the transition was smooth — and exciting.
+In early 2025, I made the leap to **ServiceNow**. With a strong foundation in Oracle CX, the transition was smooth, and exciting.
 
 I was quickly drawn to the **platform's breadth**:
 - CMDB  
@@ -35,7 +35,7 @@ I was quickly drawn to the **platform's breadth**:
 - Data and UI Policies  
 - Performance Analytics  
 
-ServiceNow isn’t just an ITSM tool anymore — it’s redefining enterprise workflows across **HR, finance, supply chain, and customer service**.
+ServiceNow isn’t just an ITSM tool anymore, it’s redefining enterprise workflows across **HR, finance, supply chain, and customer service**.
 
 ---
 
@@ -43,11 +43,11 @@ ServiceNow isn’t just an ITSM tool anymore — it’s redefining enterprise wo
 
 This blog is a place to:
 - **Learn ServiceNow practically**
-- **Explore real-world use cases**
-- **Understand low-code development**
+- **Explore real world use cases**
+- **Understand low code development**
 - **Stay updated on tips, tricks & industry trends**
 
-I break down complex topics into beginner-friendly insights — so you can **learn faster and build smarter**.
+I break down complex topics into beginner friendly insights, so you can **learn faster and build smarter**.
 
 ---
 
