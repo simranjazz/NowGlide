@@ -53,7 +53,7 @@ This post breaks down the most common roles in the ServiceNow universe and how e
 
 ---
 
-## TL;DR – ServiceNow Roles & Certifications Matrix
+## TL;DR - ServiceNow Roles & Certifications Matrix
 > Legend:
 * CSA: Certified System Administrator
 * CAD: Certified Application Developer
@@ -71,7 +71,7 @@ This post breaks down the most common roles in the ServiceNow universe and how e
 | End User | Task execution & approvals | Submitting forms, approvals, VA/chat usage | ★☆☆ | Service Portal, Mobile, Virtual Agent | Not applicable |
 | Solution Architect | Platform architecture & scalability | Design scalable, long term structures | ★★★ | App Engine, Data Model, Integration Design | CSA (mandatory), CAD (recommended), CIS (optional), CTA (aspirational, invite only), CMA (elite, invite only) |
 | Integration Specialist | System to system connectivity | API integration, MID servers | ★★★ | REST APIs, IntegrationHub, MID Server | CSA (mandatory), IntegrationHub (recommended), Micro Certs (optional) |
-| Data Manager / CMDB Owner | CMDB & data governance | CI data, data hygiene, service mapping | ★★☆ | CMDB, Discovery, Service Mapping | CSA (recommended), CIS – Discovery/Mapping (recommended) |
+| Data Manager / CMDB Owner | CMDB & data governance | CI data, data hygiene, service mapping | ★★☆ | CMDB, Discovery, Service Mapping | CSA (recommended), CIS - Discovery/Mapping (recommended) |
 | Demand Manager | Intake & prioritization | Backlog grooming, impact analysis | ★☆☆ | Demand Mgmt, Idea Portal, Portfolio Mgmt | CSA (optional), SPM Micro Certs (optional) |
 | Executive Sponsor | Vision & strategic alignment | Budgeting, platform evangelism | ★☆☆ | Dashboards, KPI Reviews, Steering Reports | Not required |
 
@@ -266,7 +266,7 @@ Typical responsibilities include:
 
 _Ideal for those who thrive in structured data and process stewardship._
 
-**Recommended Certifications:** CSA (recommended), CIS – Discovery or Service Mapping (recommended)
+**Recommended Certifications:** CSA (recommended), CIS - Discovery or Service Mapping (recommended)
 
 ---
 

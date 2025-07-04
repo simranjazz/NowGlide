@@ -66,9 +66,9 @@ It’s called [ServiceNow University](https://learning.servicenow.com){:target="
 
 When I first logged in, I found the courses well organized and beginner friendly. You can start with:
 
-- ServiceNow Basics – great for understanding the interface and core features
-- Application Development Fundamentals – if you want to build apps
-- ITSM Fundamentals – if you're leaning toward IT support processes
+- ServiceNow Basics - great for understanding the interface and core features
+- Application Development Fundamentals - if you want to build apps
+- ITSM Fundamentals - if you're leaning toward IT support processes
 
 They even offer badges and certificates for many of the modules, which is a nice motivator, and a good thing to add to your LinkedIn or resume.
 
@@ -105,10 +105,10 @@ But thankfully, that’s not true, at least not in the beginning.
 
 ServiceNow gives you a ton of power to customize the platform without writing a single line of code. These no-code tools are your best friends when you’re just starting out:
 
-- Form Designer – Add or remove fields on forms by dragging and dropping. No coding needed.
-- UI Policies – Show, hide, make fields mandatory, based on user input or conditions.
-- Business Rules (somewhat advanced) – You'll need scripting here later, but just reviewing existing ones helps.
-- Flow Designer – Automate approvals, notifications, assignments, and record updates, all through visual logic. It’s like building Lego workflows.
+- Form Designer - Add or remove fields on forms by dragging and dropping. No coding needed.
+- UI Policies - Show, hide, make fields mandatory, based on user input or conditions.
+- Business Rules (somewhat advanced) - You'll need scripting here later, but just reviewing existing ones helps.
+- Flow Designer - Automate approvals, notifications, assignments, and record updates, all through visual logic. It’s like building Lego workflows.
 
 I personally started by tweaking forms, hiding fields, setting default values, and creating simple flows for practice. It taught me how data moves through the system, without getting overwhelmed by scripting.
 
@@ -157,8 +157,8 @@ Here’s where I started (and still hang out):
   - ServiceNow Dev Program (official channel)
   - ServiceNow Guru, The SN Guys, Tim Woodruff, etc., tons of great walkthroughs.
 - Reddit & Discord
-  [/r/servicenow](https://www.reddit.com/r/servicenow/){:target="\_blank"} – Honest discussions, memes, and real world advice
-  [SN developers discord](https://discord.snc.guru/){:target="\_blank"} – Live chat with ServiceNow professionals and learners
+  [/r/servicenow](https://www.reddit.com/r/servicenow/){:target="\_blank"} - Honest discussions, memes, and real world advice
+  [SN developers discord](https://discord.snc.guru/){:target="\_blank"} - Live chat with ServiceNow professionals and learners
 
 I started by just reading threads, then slowly started answering newbie questions. Trust me, the moment you help someone else, your confidence multiplies.
 

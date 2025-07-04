@@ -85,14 +85,14 @@ A container that tracks configuration changes for moving between environments (l
 
 There are many terms in ServiceNow that didn’t make the top 10 list, but still pack a punch in daily use. Here are a few more that every curious beginner should explore:
 
-- **Scoped Application** – Modular package for isolated development.
-- **UI Policy** – Control form field visibility, read only state, and requirement rules.
-- **Service Portal** – The friendly UI layer of ServiceNow.
-- **Access Control (ACL)** – Who sees or changes what, everywhere.
-- **Business Rule** – Server side logic that drives automation.
-- **Script Include** – Reusable server side scripts for maintainable code.
-- **UI Action** – Buttons or actions (on Forms and Lists) that help users interact better.
-- **Service Catalog** – One stop shop for requesting IT and business services and products.
+- **Scoped Application** - Modular package for isolated development.
+- **UI Policy** - Control form field visibility, read only state, and requirement rules.
+- **Service Portal** - The friendly UI layer of ServiceNow.
+- **Access Control (ACL)** - Who sees or changes what, everywhere.
+- **Business Rule** - Server side logic that drives automation.
+- **Script Include** - Reusable server side scripts for maintainable code.
+- **UI Action** - Buttons or actions (on Forms and Lists) that help users interact better.
+- **Service Catalog** - One stop shop for requesting IT and business services and products.
 
 These bonus terms often reveal their true importance as you dive deeper into the platform.
 
