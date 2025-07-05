@@ -1,7 +1,7 @@
 remote_theme: daattali/beautiful-jekyll@6.0.1
 
-title: NowGlide | Decode ServiceNow with Real-World Tips & Automations
-description: A modern ServiceNow blog with hands-on guides, dev insights, and no-fluff automation wisdom from a product-minded builder.
+title: NowGlide | Decode ServiceNow with Real World Tips & Automations
+description: A modern ServiceNow blog with hands on guides, dev insights, and no fluff automation wisdom from a product minded builder.
 url: "https://nowglide.com"
 baseurl: ""
 email: "simranjazz@gmail.com"
