@@ -12,7 +12,7 @@ canonical_url: https://nowglide.com/aboutme/
 
 With over 11 years of experience in **product management**, **enterprise architecture**, and **solution delivery**, I’ve worn many hats, developer, architect, product owner, and program manager.
 
-Currently at **EY GDS Global Managed Services**, I help clients transform business operations using modern platforms, automations, and scalable digital solutions.
+Currently at **Ernst & Young GDS Global Managed Services**, I help clients transform business operations using modern platforms, automations, and scalable digital solutions.
 
 ---
 
