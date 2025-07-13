@@ -26,30 +26,30 @@ published: true
 
 ---
 
-When I began exploring ServiceNow, I was eager to learn how everything connected—what made an application, where data lived, how clicking a module did what it did. I wasn’t satisfied with just building forms or running flows—I wanted to know what was happening *under the hood*. So I made a personal commitment to go through the ServiceNow documentation *top down and sequentially*.
+When I began exploring ServiceNow, I was eager to learn how everything connected, what made an application, where data lived, how clicking a module did what it did. I wasn't satisfied with just building forms or running flows, I wanted to know what was happening *under the hood*. So I made a personal commitment to go through the ServiceNow documentation *top down and sequentially*.
 
-That deep dive led me to some eye opening discoveries, particularly around **applications**, **modules**, **tables**, **plugins**, and even **storage aliases**. If you’re new to ServiceNow or even a few months in, this post is designed to bridge the gap between clicking around and actually understanding the platform.
+That deep dive led me to some eye opening discoveries, particularly around **applications**, **modules**, **tables**, **plugins**, and even **storage aliases**. If you're new to ServiceNow or even a few months in, this post is designed to bridge the gap between clicking around and actually understanding the platform.
 
 ---
 
-## 1. What Is an Application in ServiceNow?
+## 1. What is an Application in ServiceNow?
 
-In ServiceNow, an **application** isn’t just a set of forms or workflows—it’s a **logical boundary**. It has its own *scope*, data model, access rules, and functionality.
+In ServiceNow, an **application** isn't just a set of forms or workflows, it's a **logical boundary**. It has its own *scope*, data model, access rules, and functionality.
 
 Each app operates in an isolated scope, which means it can't interact with scripts or data in other apps unless explicitly allowed. This protects the platform from unintended collisions and promotes modularity.
 
 **Example applications:**
-- **Incident Management** – scoped within ITSM
-- **HR Case Management** – scoped within HRSD
-- **Custom Scoped Apps** – created using App Engine Studio or Studio IDE
+- **Incident Management**: scoped within ITSM
+- **HR Case Management**: scoped within HRSD
+- **Custom Scoped Apps**: created using App Engine Studio or Studio IDE
 
-Understanding scopes also helps when you encounter errors like _“Script not found in current application scope”_. It’s the platform protecting boundaries.
+Understanding scopes also helps when you encounter errors like _“Script not found in current application scope”_. It's the platform protecting boundaries.
 
 ---
 
 ## 2. Modules and the Left Hand Menu
 
-Modules are the clickable items in the left hand navigation, but they’re just shortcuts. A module might:
+Modules are the clickable items in the left hand navigation, but they're just shortcuts. A module might:
 - Open a list (e.g., “All Incidents”)
 - Launch a form (e.g., “Create New”)
 - Load a report or dashboard
@@ -60,7 +60,7 @@ Modules are organized under application menus. What appears in your left panel d
 
 ## 3. Tables: The Backbone of ServiceNow
 
-Now to the real star: **Tables**. Every form you see, every record you touch, it’s all stored in a table.
+Now to the real star: **Tables**. Every form you see, every record you touch, it's all stored in a table.
 
 But tables in ServiceNow are special because of two powerful concepts: **inheritance** and **polymorphism**.
 
@@ -74,13 +74,13 @@ Because of this inheritance model, scripts and reports written for 'task' can wo
 - You can write one report that runs against 'task', and it will include all incidents, changes, and problems.
 - This is *polymorphism* in action, where a single interface can refer to many types of records.
 
-This is **not** how other platforms work. In Oracle B2C Service (formerly RightNow), for example, 'incident' is the parent and 'task' is a child. That’s a more traditional relational model. ServiceNow flips that, it organizes work items under a generalpurpose 'task' structure, which is architecturally elegant and flexible.
+This is **not** how other platforms work. In Oracle B2C Service (formerly RightNow), for example, 'incident' is the parent and 'task' is a child. That's a more traditional relational model. ServiceNow flips that, it organizes work items under a general purpose 'task' structure, which is architecturally elegant and flexible.
 
 ---
 
 ## 4. Plugins: The Hidden Backbone
 
-Plugins are ServiceNow’s hidden superpower. When you activate a plugin, you’re often installing an entire **feature pack** that may include:
+Plugins are enablers for Applications, extending their features and functionality. When you activate a plugin, you're often installing an entire **feature pack** that may include:
 - Tables
 - Business rules
 - UI elements
@@ -91,32 +91,38 @@ Plugins are ServiceNow’s hidden superpower. When you activate a plugin, you’
 - Activating the **HR Core** plugin creates the 'sn_hr_core_profile' table.
 - Activating **Virtual Agent** installs several widgets and NLP components.
 
-Some plugins are restricted and require a request through the **HI portal**. And others, once activated, can’t be deactivated. That’s why plugin management is a key architectural decision.
+Some plugins are restricted and require a request through the **HI portal**. And others, once activated, can't be deactivated. That's why plugin management is a key architectural decision.
 
 ---
 
 ## 5. Storage Aliases: Where Data Physically Lives
 
-One of the most eye opening discoveries for me was the concept of **Storage Aliases**.
+One of the most eye opening discoveries for me (after table inheritance) was the concept of **Storage Aliases**.
 
-Every table in ServiceNow has a *physical storage backend*—and this mapping is represented through storage aliases. These tell you *exactly where* a table’s data is stored in the database.
+Every table in ServiceNow has a *physical storage backend*, and this mapping is represented through storage aliases. These tell you *exactly where* a table's data is stored in the database. In traditional systems, each table has its own database storage, isn't it? But ServiceNow does something different. Thanks to its **table inheritance model**, data created in extended tables (like *incident*, *change_request*, or *problem*) is actually stored in the **base table**, such as *task*, and not in the child tables themselves.
 
-You can explore this under:  
+This means when you create a new incident, the record is physically stored in the *task* table. The *incident* table acts more like a logical extension, defining additional fields or behaviors, but the core data lives in the base table's storage location.
+
+This design is what enables **polymorphism** and boosts **query performance**, since reports and workflows built on the base table (*task*) can easily work across its child tables.
+
+You can verify where data is stored by checking the Storage Alias value:
 **System Definition > Tables > Storage Alias column**
 
 **For example:**
-- 'task' might map to a specific alias like 'ts_task'
-- 'incident' might still share the same alias due to inheritance
+- *task* may have a storage alias like 'ts_task'
+- 'incident', 'change_request', 'problem', etc., will often share this same alias
 
-Understanding this helped me realize how ServiceNow handles data performance and normalization under the surface.
+This architectural choice is rare among SaaS platforms and adds a powerful dimension to how ServiceNow handles data performance, normalization, and large-scale data across applications.
+
+Understanding this helped me appreciate the platform's efficiency and the elegant way it abstracts storage beneath layers of functionality.
 
 ---
 
 ## 6. What Actually Happens When You Click a Module
 
-Let’s tie it all together with a practical example. Say you click on **“Create New Incident”**:
+Let's tie it all together with a practical example. Say you click on **“Create New Incident”**:
 
-1. You’re accessing a **module** under the Incident Management application  
+1. You're accessing a **module** under the Incident Management application  
 2. That module opens a **form** for the 'incident' table  
 3. The 'incident' table **extends** 'task', so it inherits all its core fields  
 4. The form may be controlled by **UI policies**, **Client Scripts**, and **View Rules**  
@@ -140,9 +146,9 @@ Understanding these inner mechanics:
 
 When you see ServiceNow not just as a set of menus and forms, but as a **well structured, inheritance based architecture**, everything starts to click.
 
-I hope this post gives you a deeper appreciation of what’s happening behind each click, record, and script. For me, learning this felt like leveling up—from user to platform thinker.
+I hope this post gives you a deeper appreciation of what's happening behind each click, record, and script. For me, learning this felt like leveling up, from user to platform thinker.
 
-And yes—I truly did learn all of this by going through the documentation, top down, with a curious and focused mindset.
+And yes, I truly did learn all of this by going through the documentation, top down, with a curious and focused mindset.
 
 Next time, we might dive into **Scoped Apps**, or how to design a modular, country specific case management system.
 
