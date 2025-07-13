@@ -20,12 +20,6 @@ published: true
 * TOC
 {:toc}
 
-## Abbreviations Used in This Post
-
-...
-
----
-
 When I began exploring ServiceNow, I was eager to learn how everything connected, what made an application, where data lived, how clicking a module did what it did. I wasn't satisfied with just building forms or running flows, I wanted to know what was happening *under the hood*. So I made a personal commitment to go through the ServiceNow documentation *top down and sequentially*.
 
 That deep dive led me to some eye opening discoveries, particularly around **applications**, **modules**, **tables**, **plugins**, and even **storage aliases**. If you're new to ServiceNow or even a few months in, this post is designed to bridge the gap between clicking around and actually understanding the platform.
