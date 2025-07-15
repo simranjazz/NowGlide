@@ -53,7 +53,7 @@ Here’s how I got mine in under 10 minutes:
 - Wait for a few minutes, and your own ServiceNow instance is live!
 - You’ll get a unique URL like https://dev-12345.service-now.com and full admin access, which means you can try almost everything the platform offers. Trust me, having a PDI changed the way I learn. It’s not just reading anymore, it’s doing.
 
-![ServiceNow PDI Instance Home Page](/assets/images/blogPostImages/post1/1PDIHome.png)
+![ServiceNow PDI Instance Home Page](/assets/images/posts/learn-servicenow-beginners/servicenow-pdi-homepage.png)
 
 > ServiceNow does not offer support for PDIs. I've only ever experienced an outage on PDIs once, which was addressed by ServiceNow, in a few weeks. In case you are not able to access your PDI during a declared outage, I would suggest to wait, the instance will be back up when the outage is over. If you don't have any data/config/customizations to get back to, then you can release the current instance and request for a new one.
 
@@ -87,6 +87,8 @@ Start with these three:
 
 - **Incident, Problem, and Change Management (ITSM)**  
   These are the heart of IT workflows in ServiceNow. Learn how tickets (aka “records”) flow through different states, how users interact with them, and how SLAs work.
+
+  ![ServiceNow Incidents List](/assets/images/posts/learn-servicenow-beginners/servicenow-incidents-list.png)
 
 - **Knowledge Management**  
   This teaches you how companies store and share documentation inside ServiceNow, a surprisingly important skill when building any real world solution.

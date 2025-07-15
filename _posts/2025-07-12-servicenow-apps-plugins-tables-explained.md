@@ -50,6 +50,8 @@ Modules are the clickable items in the left hand navigation, but they're just sh
 
 Modules are organized under application menus. What appears in your left panel depends on your **roles** and **permissions**. For example, only someone with the 'admin' or 'itil' role might see “Incident > Create New.”
 
+![ServiceNow create new incident example](/assets/images/posts/servicenow-apps-plugins-tables-explained/servicenow-create-new-incident.png)
+
 ---
 
 ## 3. Tables: The Backbone of ServiceNow
@@ -62,6 +64,8 @@ But tables in ServiceNow are special because of two powerful concepts: **inherit
 Tables can extend other tables. The most famous base table? 'task'.
 - 'incident', 'change_request', 'problem', and many others all **extend** the 'task' table.
 - This means they inherit its fields like 'short_description', 'priority', 'assigned_to', etc.
+
+![ServiceNow inheritance example](/assets/images/posts/servicenow-apps-plugins-tables-explained/servicenow-incident-extends-task.png)
 
 ### Polymorphism:
 Because of this inheritance model, scripts and reports written for 'task' can work with all its child tables.
@@ -85,6 +89,8 @@ Plugins are enablers for Applications, extending their features and functionalit
 - Activating the **HR Core** plugin creates the 'sn_hr_core_profile' table.
 - Activating **Virtual Agent** installs several widgets and NLP components.
 
+![ServiceNow HR Plugins](/assets/images/posts/servicenow-apps-plugins-tables-explained/servicenow-plugins.png)
+
 Some plugins are restricted and require a request through the **HI portal**. And others, once activated, can't be deactivated. That's why plugin management is a key architectural decision.
 
 ---
@@ -105,6 +111,8 @@ You can verify where data is stored by checking the Storage Alias value:
 **For example:**
 - *task* may have a storage alias like 'ts_task'
 - 'incident', 'change_request', 'problem', etc., will often share this same alias
+
+![ServiceNow Incident Storage Aliases showing how the physical storage table is Task](/assets/images/posts/servicenow-apps-plugins-tables-explained/servicenow-storage-aliases.png)
 
 This architectural choice is rare among SaaS platforms and adds a powerful dimension to how ServiceNow handles data performance, normalization, and large-scale data across applications.
 

@@ -37,6 +37,8 @@ A table is where your data lives. Each app, like Incidents or Employees, is back
 
 **Pro tip:** The task table is the parent for many process driven records like Incident, Change, and Request.
 
+![ServiceNow Incident System DB Object](/assets/images/posts/top-10-must-know-terms-servicenow-beginners/servicenow-incident-database-object.png)
+
 > You might’ve noticed I referred to things like Incidents and Employees as apps. That’s intentional, and honestly, it’s one of the most ingenious design patterns I’ve seen in ServiceNow.
 Everything in ServiceNow is highly modular. You have Products (like ITSM, HRSD, CSM), which contain Applications (like Incident Management, Change Management), which in turn rely on Plugins (like Document Intelligence, Integration Hub). And then, at the heart of it all, are Tables, where the data lives.
 Each application sits inside its own scope, like its own sandbox or prison cell, isolated by default, and not allowed to interact with others unless explicitly permitted. This scoped architecture makes development safer, cleaner, and more maintainable. _More on this later!_
@@ -45,6 +47,8 @@ Each application sits inside its own scope, like its own sandbox or prison cell,
 Every entry in a table is a record. Think: one Incident, one User, one HR Case.
 
 **Real world analogy:** A record is like a row in Excel, with columns as fields.
+
+![ServiceNow sample Incident record](/assets/images/posts/top-10-must-know-terms-servicenow-beginners/servicenow-sample-incident.png)
 
 ## 4. GlideRecord
 A powerful JavaScript API used for querying and manipulating records in the database.
@@ -55,6 +59,8 @@ A powerful JavaScript API used for querying and manipulating records in the data
 ServiceNow's low code automation tool that lets you build logic with clicks instead of code.
 
 **2025 update:** Most new implementations prefer Flow Designer over legacy Workflow Editor.
+
+![ServiceNow sample flow](/assets/images/posts/top-10-must-know-terms-servicenow-beginners/servicenow-sample-flow.png)
 
 ## 6. User Role
 Controls what a user can see or do. For example, only users with admin or itil roles can access Incident forms.

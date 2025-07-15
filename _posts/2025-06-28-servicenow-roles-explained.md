@@ -214,6 +214,8 @@ _Ideal for professionals who thrive on resolution, service delivery, and user en
 
 **Certifications:** Not mandatory, but exposure to Agent Workspace training and module specific knowledge (e.g., ITSM, HRSD) is valuable.
 
+![ServiceNow sample user with ITIL roles](/assets/images/posts/servicenow-roles-explained/servicenow-user-role-itil.png)
+
 ---
 
 ## Additional (Honorable Mention) Roles
