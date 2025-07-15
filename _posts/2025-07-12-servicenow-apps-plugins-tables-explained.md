@@ -100,7 +100,7 @@ This means when you create a new incident, the record is physically stored in th
 This design is what enables **polymorphism** and boosts **query performance**, since reports and workflows built on the base table (*task*) can easily work across its child tables.
 
 You can verify where data is stored by checking the Storage Alias value:
-**System Definition > Tables > Storage Alias column**
+**Filter Navigator > sys_storage_alias.list**
 
 **For example:**
 - *task* may have a storage alias like 'ts_task'
