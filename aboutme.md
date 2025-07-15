@@ -18,8 +18,8 @@ Currently at **Ernst & Young GDS Global Managed Services**, I help clients trans
 
 ## My Journey
 
-I started in development, grew into product ownership, and eventually led complex programs across industries: **HR, telecom, e commerce, insurance, and finance**.  
-For nearly a decade, I specialized in **Oracle B2C Service (RightNow CX)**, designing scalable solutions that empowered both end users and internal ops teams.
+I started in development, grew into product ownership, and eventually led complex programs across *industries and domains*: **travel & tourism, HR, telecom, e commerce, manufacturing, education, and finance**.  
+For nearly a decade, I specialized in **Oracle B2C Service (RightNow CX), Oracle Knowledge Advanced, and Oracle Policy Automation**, designing scalable solutions that empowered both end users and internal ops teams.
 
 ---
 
