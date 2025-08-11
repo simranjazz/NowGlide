@@ -20,8 +20,6 @@ published: true
 * TOC
 {:toc}
 
-# Automating Background Screening (BGS) in ServiceNow HRSD
-
 Background Screening (BGS) is a cornerstone of modern hiring processes, ensuring compliance, risk management, and candidate credibility. Yet in many organizations, it remains a patchwork of manual follow ups, emails, and disconnected spreadsheets.  
 
 ServiceNow HRSD (Human Resources Service Delivery) offers all the foundational building blocks to automate this process, but connecting them into a cohesive, scalable, and user friendly system requires thoughtful design, that’s where I come in. :) I have previously had the privilege of implementing this very extensive automation in another SaaS product, and I’ve brought forward some of those tried and tested design principles.
@@ -85,8 +83,10 @@ ServiceNow HRSD already has rich tables for HR cases, profiles, and documents. F
 | **BGS Criminal Disclosure** | Candidate's self-reported criminal records. | Purely custom. One-to-many relationship with BGS Self Declaration. |
 | **BGS Outcome** | Stores the **final outcome** of the screening process. | This is master data, retained beyond the lifecycle of cases. One-to-many relationship with BGS Self Declaration. |
 
+HRSD BGS custom database tables:
 ![ServiceNow create HRSD BGS custom database tables](/assets/images/posts/servicenow-hrsd-background-screening-guide/servicenow-hrsd-bgs-db.png)
 
+Enabling extensibility in standard HRSD tables:
 ![ServiceNow HRSD enable extensibility](/assets/images/posts/servicenow-hrsd-background-screening-guide/servicenow-hrsd-enable-extensibility.png)
 
 ---
@@ -128,7 +128,10 @@ Decision Tables let you externalize screening rules from the flow logic. Complex
 1. **BGS Packages Decision Table** - Selects the screening package based on candidate intake data (region, job level, etc.).
 2. **BGS Tasks Decision Table** - Determines the specific tasks for the selected package.
 
+HRSD BGS Packages decision table:
 ![ServiceNow create HRSD BGS Packages decision table](/assets/images/posts/servicenow-hrsd-background-screening-guide/servicenow-hrsd-package-decision-table.png)
+
+HRSD BGS Tasks decision table:
 ![ServiceNow create HRSD BGS Tasks decision table](/assets/images/posts/servicenow-hrsd-background-screening-guide/servicenow-hrsd-task-decision-table.png)
 
 ---
@@ -148,7 +151,11 @@ A new `BGS Candidate` record is created (via ATS integration or manual entry).
 7. Notify the assigned agent
 
 **Note:** If reading/creating/updating HRSD standard tables from the custom app scope, you would have to create a cross-scope privilege record and then approve the Restricted Caller Access Privilege records (run time cross application access) for safe CRUD operations.
+
+Raise a new cross-scope privilege record:
 ![ServiceNow create cross-scope privilege](/assets/images/posts/servicenow-hrsd-background-screening-guide/servicenow-hrsd-cross-scope-privilege.png)
+
+Approve the corresponding restricted caller access privilege record:
 ![ServiceNow approve restricted caller access privilege records](/assets/images/posts/servicenow-hrsd-background-screening-guide/servicenow-hrsd-rcap.png)
 
 ---
@@ -216,8 +223,6 @@ Following this architecture gives you:
 - Minimal custom code
 
 **Next Post:** How to design the HR External Portal for self-declaration, document uploads, and secure candidate case interactions. The HR External Portal would cater to four personas: candidates, HR vendors, employees on long leaves of absence and former employees.
-
----
 
 {{ site.post_footer_author }}
 
