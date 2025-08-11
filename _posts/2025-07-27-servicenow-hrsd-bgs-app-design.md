@@ -230,7 +230,7 @@ Following this architecture gives you:
 - Candidate friendly self-service
 - Minimal custom code
 
-**Next Post:** How to design the HR External Portal for self-declaration, document uploads, and secure candidate case interactions. The HR External Portal would cater to four personas: candidates, HR vendors, employees on long leaves of absence and former employees.
+**Next Post:** In the next article, I’ll walk through designing the HR External Portal: A secure, user friendly space for self-declarations, document uploads, and direct case interactions. This portal will be built to serve four key personas: candidates, HR vendors, employees on long leaves of absence, and former employees.
 
 {{ site.post_footer_author }}
 
