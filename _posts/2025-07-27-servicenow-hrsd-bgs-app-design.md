@@ -62,7 +62,7 @@ Using **ServiceNow Studio** (or App Engine Studio), create a scoped application 
 This keeps all custom components isolated from standard HRSD configurations, and the rest of the platform.
 ![ServiceNow create new BGS app](/assets/images/posts/servicenow-hrsd-background-screening-guide/servicenow-hrsd-new-app.png)
 
-During new app creation, the system might prompt you to define the roles that will be interacting with this app — typically HR BGS teams and admins.
+During new app creation, the system might prompt you to define the roles that will be interacting with this app, typically HR BGS teams and admins.
 ![ServiceNow create new roles](/assets/images/posts/servicenow-hrsd-background-screening-guide/servicenow-hrsd-roles.png)
 
 ---
@@ -85,6 +85,9 @@ ServiceNow HRSD already has rich tables for HR cases, profiles, and documents. F
 
 HRSD BGS custom database tables:
 ![ServiceNow create HRSD BGS custom database tables](/assets/images/posts/servicenow-hrsd-background-screening-guide/servicenow-hrsd-bgs-db.png)
+
+![ServiceNow create HRSD BGS custom database tables](/assets/images/posts/servicenow-hrsd-background-screening-guide/servicenow-hrsd-bgs-custom-tables.png)
+
 
 Enabling extensibility in standard HRSD tables:
 ![ServiceNow HRSD enable extensibility](/assets/images/posts/servicenow-hrsd-background-screening-guide/servicenow-hrsd-enable-extensibility.png)
@@ -150,6 +153,8 @@ A new `BGS Candidate` record is created (via ATS integration or manual entry).
 6. Assign the case (skills based routing)
 7. Notify the assigned agent
 
+![ServiceNow HRSD BGS Case & Task Flow](/assets/images/posts/servicenow-hrsd-background-screening-guide/servicenow-hrsd-bgs-flow.png)
+
 **Note:** If reading/creating/updating HRSD standard tables from the custom app scope, you would have to create a cross-scope privilege record and then approve the Restricted Caller Access Privilege records (run time cross application access) for safe CRUD operations.
 
 Raise a new cross-scope privilege record:
@@ -157,6 +162,9 @@ Raise a new cross-scope privilege record:
 
 Approve the corresponding restricted caller access privilege record:
 ![ServiceNow approve restricted caller access privilege records](/assets/images/posts/servicenow-hrsd-background-screening-guide/servicenow-hrsd-rcap.png)
+
+HRSD BGS sample case and tasks created through flow:
+![ServiceNow HRSD BGS sample case](/assets/images/posts/servicenow-hrsd-background-screening-guide/servicenow-hrsd-bgs-sample-case.png)
 
 ---
 
